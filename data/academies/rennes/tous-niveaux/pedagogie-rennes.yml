@@ -1,0 +1,16 @@
+nom: Espace pédagogique de l'académie de Rennes
+url: https://pedagogie.ac-rennes.fr/
+description: Portail pédagogique de l'académie de Rennes proposant ressources disciplinaires
+  et informations pour les enseignants de la maternelle au supérieur.
+categorie: preparation-cours
+tags:
+- academie
+- disciplines
+- ressources
+- pedagogie
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- rennes

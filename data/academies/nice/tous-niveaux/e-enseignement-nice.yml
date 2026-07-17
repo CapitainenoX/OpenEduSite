@@ -1,0 +1,17 @@
+nom: E-enseignement - Plateforme pédagogique de l'académie de Nice
+url: https://e-enseignement.ac-nice.fr/
+description: Plateforme Moodle de l'académie de Nice destinée aux enseignants et
+  élèves pour la mise en ligne de cours et de ressources pédagogiques.
+categorie: outils-numeriques
+tags:
+- moodle
+- plateforme
+- cours-en-ligne
+- numerique
+publics:
+- enseignant
+- eleve
+officiel: true
+gratuit: true
+academies:
+- nice

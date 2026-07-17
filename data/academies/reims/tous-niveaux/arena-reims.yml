@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie de Reims
+url: https://extranet.ac-reims.fr/arena/
+description: Portail ARENA de l'académie de Reims, point d'entrée unique vers les
+  services et applications professionnelles pour les personnels.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- reims

@@ -1,0 +1,17 @@
+nom: DRANE Occitanie
+url: https://drane.region-academique-occitanie.fr/
+description: Site de la délégation régionale académique au numérique éducatif pour
+  la région académique Occitanie, commune aux académies de Toulouse et de Montpellier.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- region-academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- toulouse
+- montpellier

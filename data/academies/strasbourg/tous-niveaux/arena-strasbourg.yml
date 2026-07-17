@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie de Strasbourg
+url: https://si.ac-strasbourg.fr/arena
+description: Portail ARENA de l'académie de Strasbourg donnant accès en authentification
+  unique aux services numériques de l'Éducation nationale pour les personnels.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- strasbourg

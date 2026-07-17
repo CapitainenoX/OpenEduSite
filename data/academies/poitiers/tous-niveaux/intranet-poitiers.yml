@@ -1,0 +1,16 @@
+nom: Intranet de l'académie de Poitiers
+url: https://intranet.ac-poitiers.fr
+description: Portail intranet des personnels de l'académie de Poitiers, point d'accès
+  à ARENA, au webmail, à iProf et aux applications métier.
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- poitiers

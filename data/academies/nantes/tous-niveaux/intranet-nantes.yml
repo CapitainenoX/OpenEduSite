@@ -1,0 +1,16 @@
+nom: Intranet de l'académie de Nantes
+url: https://www.intra.ac-nantes.fr/
+description: Portail intranet des personnels de l'académie de Nantes, point d'accès
+  à ARENA, à la messagerie académique et aux applications métier.
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- nantes

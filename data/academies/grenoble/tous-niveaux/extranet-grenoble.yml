@@ -1,0 +1,16 @@
+nom: Extranet / PIA de l'académie de Grenoble
+url: https://extranet.ac-grenoble.fr/portail/accueil
+description: Portail intranet (PIA/ARENA) de l'académie de Grenoble donnant accès
+  aux applications métier et à la gestion administrative pour les personnels.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- portail
+- iprof
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- grenoble

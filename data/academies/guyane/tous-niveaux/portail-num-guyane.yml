@@ -1,0 +1,16 @@
+nom: Portail des outils numériques de l'académie de Guyane
+url: https://portail-num.ac-guyane.fr/
+description: Portail centralisant l'accès aux services numériques (messagerie,
+  gestion d'identité, ENT) pour les personnels de l'académie de Guyane.
+categorie: gestion-administrative
+tags:
+- intranet
+- numerique
+- messagerie
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- guyane

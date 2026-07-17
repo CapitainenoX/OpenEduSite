@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie de Limoges
+url: https://arena.ac-limoges.fr
+description: Portail ARENA de l'académie de Limoges, accès unique aux applications
+  métier pour les personnels de l'Éducation nationale.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- limoges

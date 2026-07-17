@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie de Rennes
+url: https://portail.ac-rennes.fr/arena/
+description: Portail ARENA de l'académie de Rennes, accès aux applications métier
+  de l'Éducation nationale pour les personnels.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- rennes

@@ -1,0 +1,16 @@
+nom: Portail pédagogique de l'académie d'Orléans-Tours
+url: https://pedagogie.ac-orleans-tours.fr/
+description: Portail pédagogique académique d'Orléans-Tours proposant actualités,
+  ressources disciplinaires et informations sur le numérique éducatif.
+categorie: preparation-cours
+tags:
+- academie
+- disciplines
+- ressources
+- pedagogie
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- orleans-tours

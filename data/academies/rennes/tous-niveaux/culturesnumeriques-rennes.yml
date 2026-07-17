@@ -1,0 +1,17 @@
+nom: Cultures Numériques - académie de Rennes
+url: https://culturesnumeriques.ac-rennes.fr/
+description: Site de la délégation régionale académique au numérique éducatif de
+  Rennes, dédié à la culture numérique, à la formation et aux ressources pour les
+  enseignants de Bretagne.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- ressources
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- rennes

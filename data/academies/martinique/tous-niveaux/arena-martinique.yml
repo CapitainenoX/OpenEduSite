@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie de Martinique
+url: https://extranet.ac-martinique.fr/arena/
+description: Portail ARENA de l'académie de Martinique, accès réservé aux personnels
+  pour les applications métier de l'Éducation nationale.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- martinique

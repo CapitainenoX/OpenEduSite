@@ -1,0 +1,17 @@
+nom: DRANE de l'académie de Strasbourg
+url: https://dane.site.ac-strasbourg.fr/
+description: Site de la délégation régionale académique au numérique éducatif de
+  Strasbourg (Grand Est), avec ressources sur l'ENT, le numérique en classe et la
+  formation des enseignants.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- ent
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- strasbourg

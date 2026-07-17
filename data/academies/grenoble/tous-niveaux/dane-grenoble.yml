@@ -1,0 +1,17 @@
+nom: DRANE de l'académie de Grenoble
+url: https://dane.web.ac-grenoble.fr/
+description: Site de la délégation régionale académique au numérique éducatif de
+  Grenoble, avec ressources, outils numériques et actualités pour les cinq départements
+  de l'académie.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- ressources
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- grenoble

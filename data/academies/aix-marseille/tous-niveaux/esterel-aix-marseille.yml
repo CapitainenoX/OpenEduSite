@@ -1,0 +1,17 @@
+nom: Estérel - Portail académique d'Aix-Marseille
+url: https://esterel.ac-aix-marseille.fr/
+description: Portail intranet unique de l'académie d'Aix-Marseille (remplaçant PIA
+  et ARENA depuis 2023), donnant accès en authentification unique aux services
+  numériques pour les personnels.
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- aix-marseille

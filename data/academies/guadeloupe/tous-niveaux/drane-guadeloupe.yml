@@ -1,0 +1,17 @@
+nom: DRANE de l'académie de Guadeloupe
+url: https://drane.site.ac-guadeloupe.fr/
+description: Plateforme officielle de la délégation régionale académique au numérique
+  éducatif de Guadeloupe, avec ressources et formations pour accompagner les usages
+  du numérique en classe.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- formation
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- guadeloupe

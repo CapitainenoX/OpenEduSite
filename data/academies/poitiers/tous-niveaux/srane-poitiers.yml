@@ -1,0 +1,16 @@
+nom: SRANE - Service régional académique du numérique éducatif de Poitiers
+url: https://ww2.ac-poitiers.fr/srane/
+description: Site du service régional académique au numérique éducatif de Poitiers,
+  coordonnant la stratégie numérique de l'académie pour la Nouvelle-Aquitaine.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- ent
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- poitiers

@@ -1,0 +1,16 @@
+nom: DRANE de l'académie de Nancy-Metz
+url: https://drane.ac-nancy-metz.fr
+description: Site de la délégation régionale académique au numérique éducatif de
+  Nancy-Metz, avec ressources, projets pédagogiques et actualités du numérique.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- ressources
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- nancy-metz

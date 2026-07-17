@@ -1,0 +1,16 @@
+nom: Pédagogie Nord - Ressources premier degré du Nord
+url: https://pedagogie-nord.ac-lille.fr/
+description: Portail pédagogique départemental pour les enseignants du Nord (académie
+  de Lille) proposant ressources, outils numériques et accompagnement.
+categorie: preparation-cours
+tags:
+- departement
+- nord
+- ressources
+- premier-degre
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- lille

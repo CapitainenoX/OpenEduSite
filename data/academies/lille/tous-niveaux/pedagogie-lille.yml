@@ -1,0 +1,16 @@
+nom: Portail pédagogique de l'académie de Lille
+url: https://pedagogie.ac-lille.fr/
+description: Hébergement mutualisé des sites disciplinaires (lettres, mathématiques,
+  STI, langues vivantes…) de l'académie de Lille.
+categorie: preparation-cours
+tags:
+- academie
+- disciplines
+- ressources
+- pedagogie
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- lille

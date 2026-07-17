@@ -1,0 +1,16 @@
+nom: DANE de l'académie de Martinique
+url: https://site.ac-martinique.fr/dane/
+description: Site de la délégation académique au numérique éducatif de Martinique,
+  avec ressources et actualités sur le numérique éducatif et l'ENT Colibri.
+categorie: outils-numeriques
+tags:
+- dane
+- numerique
+- ent
+- ressources
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- martinique

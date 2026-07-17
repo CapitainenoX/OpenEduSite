@@ -1,0 +1,17 @@
+nom: DRANE de l'académie de Lille
+url: https://dane.site.ac-lille.fr/
+description: Site de la délégation régionale académique au numérique éducatif de
+  Lille, avec projets pédagogiques numériques et actualités pour les enseignants
+  des Hauts-de-France.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- ressources
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- lille

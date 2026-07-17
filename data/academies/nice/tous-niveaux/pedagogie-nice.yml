@@ -1,0 +1,16 @@
+nom: Portail pédagogique de l'académie de Nice
+url: https://www.pedagogie.ac-nice.fr/
+description: Portail pédagogique de l'académie de Nice regroupant ressources disciplinaires
+  et actualités, dont l'antenne niçoise de la DRANE PACA.
+categorie: preparation-cours
+tags:
+- academie
+- disciplines
+- ressources
+- dane
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- nice

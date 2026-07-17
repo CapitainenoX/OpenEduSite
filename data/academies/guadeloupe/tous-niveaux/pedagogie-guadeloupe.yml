@@ -1,0 +1,18 @@
+nom: Espace pédagogique de l'académie de Guadeloupe
+url: https://pedagogie.ac-guadeloupe.fr/
+description: Portail pédagogique de l'académie de Guadeloupe rassemblant ressources
+  disciplinaires, actualités du numérique éducatif et informations du délégué académique
+  au numérique (DAN).
+categorie: preparation-cours
+tags:
+- academie
+- disciplines
+- ressources
+- dane
+- pedagogie
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- guadeloupe

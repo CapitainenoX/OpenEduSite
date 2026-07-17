@@ -1,0 +1,15 @@
+nom: PARTAGE - Intranet de l'académie de Strasbourg
+url: https://partage.ac-strasbourg.fr
+description: Intranet académique de Strasbourg centralisant informations et accès
+  aux services numériques pour les personnels depuis 2023.
+categorie: gestion-administrative
+tags:
+- intranet
+- portail
+- arena
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- strasbourg

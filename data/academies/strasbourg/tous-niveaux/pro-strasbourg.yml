@@ -1,0 +1,16 @@
+nom: Professionnels - Portail des personnels de l'académie de Strasbourg
+url: https://pro.ac-strasbourg.fr/
+description: Portail des personnels de l'académie de Strasbourg regroupant informations
+  RH, outils de connexion et glossaire des services numériques.
+categorie: gestion-administrative
+tags:
+- intranet
+- iprof
+- rh
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- strasbourg

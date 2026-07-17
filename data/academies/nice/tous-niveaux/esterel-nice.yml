@@ -1,0 +1,16 @@
+nom: Esterel - Portail intranet académique de Nice
+url: https://services.ac-nice.fr/eservices_pers.html
+description: Portail des services numériques en ligne pour les personnels de l'académie
+  de Nice, dont Esterel, le portail intranet académique, et l'accès à ARENA.
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- portail
+- iprof
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- nice

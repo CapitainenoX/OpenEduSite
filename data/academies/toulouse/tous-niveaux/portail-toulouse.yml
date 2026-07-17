@@ -1,0 +1,16 @@
+nom: Portail d'accès aux applications de l'académie de Toulouse
+url: https://portail.ac-toulouse.fr/
+description: Portail intranet de l'académie de Toulouse permettant aux personnels
+  d'accéder à leurs applications professionnelles (messagerie, iProf, Imag'in…).
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- toulouse
