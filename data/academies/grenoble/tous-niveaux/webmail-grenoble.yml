@@ -1,0 +1,18 @@
+nom: Webmail académique de Grenoble
+url: https://webmail.ac-grenoble.fr
+description: Messagerie professionnelle des personnels de l'académie de Grenoble (adresse en @ac-grenoble.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- grenoble

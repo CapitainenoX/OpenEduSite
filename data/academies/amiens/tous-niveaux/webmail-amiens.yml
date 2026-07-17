@@ -1,0 +1,18 @@
+nom: Webmail académique d'Amiens
+url: https://webmail.ac-amiens.fr
+description: Messagerie professionnelle des personnels de l'académie d'Amiens (adresse en @ac-amiens.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- amiens

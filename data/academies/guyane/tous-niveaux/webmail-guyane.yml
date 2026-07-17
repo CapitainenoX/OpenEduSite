@@ -1,0 +1,18 @@
+nom: Webmail académique de Guyane
+url: https://webmail.ac-guyane.fr
+description: Messagerie professionnelle des personnels de l'académie de Guyane (adresse en @ac-guyane.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- guyane

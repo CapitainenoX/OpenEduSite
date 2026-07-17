@@ -1,0 +1,15 @@
+nom: Éduline
+url: https://eduline.ac-lille.fr
+description: Portail d'accès aux applications et services numériques des personnels de l'académie de Lille.
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- applications
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- lille

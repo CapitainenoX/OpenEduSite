@@ -1,0 +1,18 @@
+nom: Webmail académique d'Aix-Marseille
+url: https://webmail.ac-aix-marseille.fr
+description: Messagerie professionnelle des personnels de l'académie d'Aix-Marseille (adresse en @ac-aix-marseille.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- aix-marseille

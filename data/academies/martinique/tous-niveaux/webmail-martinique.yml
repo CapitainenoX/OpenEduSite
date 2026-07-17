@@ -1,0 +1,18 @@
+nom: Webmail académique de Martinique
+url: https://webmail.ac-martinique.fr
+description: Messagerie professionnelle des personnels de l'académie de Martinique (adresse en @ac-martinique.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- martinique

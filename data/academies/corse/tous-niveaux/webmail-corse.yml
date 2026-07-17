@@ -1,0 +1,18 @@
+nom: Webmail académique de Corse
+url: https://webmail.ac-corse.fr
+description: Messagerie professionnelle des personnels de l'académie de Corse (adresse en @ac-corse.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- corse

@@ -1,0 +1,18 @@
+nom: Webmail académique de Lille
+url: https://webmail.ac-lille.fr
+description: Messagerie professionnelle des personnels de l'académie de Lille (adresse en @ac-lille.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- lille

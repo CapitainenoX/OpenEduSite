@@ -9,7 +9,9 @@ ENT, vie scolaire, ressources pédagogiques, exercices, orientation, inclusion�
 - 🎚️ **Filtres** par niveau (maternelle → supérieur), académie, catégorie,
   public, sites officiels ou gratuits.
 - 🌗 **Trois thèmes** : clair et sombre en noir & blanc, plus un thème
-  **Obsidian** (le look de l'application de prise de notes).
+  **Obsidian** (le look de l'application de prise de notes) qui active une
+  **vue graphe interactive** : les sites sont des nœuds reliés à leur
+  catégorie, comme le graphe d'Obsidian.
 - 📄 **Base de données en fichiers** : ajouter un site = déposer un fichier
   YAML, sans toucher au code.
 

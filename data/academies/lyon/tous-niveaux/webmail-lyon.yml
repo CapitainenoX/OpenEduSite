@@ -1,0 +1,18 @@
+nom: Webmail académique de Lyon
+url: https://webmail.ac-lyon.fr
+description: Messagerie professionnelle des personnels de l'académie de Lyon (adresse en @ac-lyon.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- lyon

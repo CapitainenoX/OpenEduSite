@@ -1,0 +1,16 @@
+nom: DANE de Lyon
+url: https://dane.ac-lyon.fr
+description: 'Site de la délégation académique au numérique éducatif de Lyon : accompagnement, tutoriels
+  et actualités du numérique.'
+categorie: outils-numeriques
+tags:
+- dane
+- numerique
+- tutoriels
+- accompagnement
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- lyon

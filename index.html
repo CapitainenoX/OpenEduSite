@@ -93,6 +93,10 @@
   <main class="results" aria-live="polite">
     <div class="results-bar">
       <p id="results-count">Chargement de l'annuaire…</p>
+      <div class="view-toggle" id="view-toggle" role="group" aria-label="Mode d'affichage" hidden>
+        <button type="button" data-view="cartes" class="active">Cartes</button>
+        <button type="button" data-view="graphe">Graphe</button>
+      </div>
       <label class="sort-wrap">Trier :
         <select id="sort">
           <option value="pertinence">Pertinence</option>
@@ -104,6 +108,11 @@
     </div>
     <div id="active-filters" class="active-filters" hidden></div>
     <div id="cards" class="cards"></div>
+    <div id="graph-wrap" hidden>
+      <canvas id="graph" aria-label="Graphe des sites, façon Obsidian"></canvas>
+      <p class="graph-help">Molette : zoom · glisser : déplacer · un nœud violet est une catégorie
+         (cliquer pour filtrer) · cliquer sur un site l'ouvre.</p>
+    </div>
     <div id="empty" class="empty" hidden>
       <p><strong>Aucun site ne correspond à cette recherche.</strong></p>
       <p>Essayez un mot plus général (« élèves », « exercices », « ENT »)

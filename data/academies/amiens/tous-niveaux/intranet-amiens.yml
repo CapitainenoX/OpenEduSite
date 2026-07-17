@@ -1,0 +1,16 @@
+nom: Intranet de l'académie d'Amiens
+url: https://intranet.ac-amiens.fr
+description: Portail intranet des personnels de l'académie d'Amiens donnant accès
+  à la messagerie académique, à ARENA, à iProf, à Magistère et aux outils métier.
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- messagerie
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- amiens

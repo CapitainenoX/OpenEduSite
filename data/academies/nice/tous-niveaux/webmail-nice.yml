@@ -1,0 +1,18 @@
+nom: Webmail académique de Nice
+url: https://webmail.ac-nice.fr
+description: Messagerie professionnelle des personnels de l'académie de Nice (adresse en @ac-nice.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- nice

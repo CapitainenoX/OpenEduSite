@@ -231,9 +231,27 @@
   }
 
   let renderLimit = 60;
+  let view = "cartes"; // "cartes" | "graphe" (graphe : réservé au thème Obsidian)
+
+  function graphMode() {
+    return view === "graphe" && document.documentElement.dataset.theme === "obsidian";
+  }
 
   function render() {
     const sites = applyFilters();
+    const gm = graphMode();
+    $("#graph-wrap").hidden = !gm;
+    $("#cards").hidden = gm;
+    if (gm) {
+      Graph.update(sites);
+      $("#empty").hidden = sites.length > 0;
+      $("#results-count").innerHTML = sites.length
+        ? `<strong>${sites.length}</strong> site${sites.length > 1 ? "s" : ""} dans le graphe`
+        : `Aucun résultat sur ${DATA.sites.length} sites référencés`;
+      renderActiveFilters();
+      return;
+    }
+    Graph.stop();
     const cards = $("#cards");
     const shown = sites.slice(0, renderLimit);
     cards.innerHTML = shown.map(cardHtml).join("");
@@ -426,6 +444,255 @@
     });
   }
 
+  // ---------- Vue graphe façon Obsidian ----------
+  // Simulation de forces maison sur canvas : les sites (petits nœuds)
+  // sont reliés à leur catégorie (gros nœuds violets), comme le graphe
+  // de l'application Obsidian.
+  const Graph = (() => {
+    let canvas, ctx, nodes = [], edges = [], raf = null;
+    let panX = 0, panY = 0, scale = 1, hover = null, dragNode = null, panning = false;
+    let lastX = 0, lastY = 0, colors = {};
+
+    function readColors() {
+      const cs = getComputedStyle(document.documentElement);
+      colors = {
+        bg: cs.getPropertyValue("--bg").trim(),
+        accent: cs.getPropertyValue("--accent").trim() || "#a882ff",
+        text: cs.getPropertyValue("--text").trim(),
+        soft: cs.getPropertyValue("--text-soft").trim(),
+        border: cs.getPropertyValue("--border").trim(),
+      };
+    }
+
+    function resize() {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    function build(sites) {
+      const capped = sites.slice(0, 300);
+      const hubs = new Map();
+      nodes = []; edges = [];
+      for (const s of capped) {
+        if (!hubs.has(s.categorie)) {
+          hubs.set(s.categorie, nodes.length);
+          nodes.push({ label: DATA.categories[s.categorie] || s.categorie,
+                       cat: s.categorie, hub: true, r: 11, n: 0,
+                       x: 0, y: 0, vx: 0, vy: 0 });
+        }
+        const h = hubs.get(s.categorie);
+        nodes[h].n++;
+        edges.push([h, nodes.length]);
+        nodes.push({ label: s.nom, site: s, r: s.officiel ? 6 : 5,
+                     x: 0, y: 0, vx: 0, vy: 0 });
+      }
+      // Taille des hubs selon leur nombre de sites, positions initiales en couronne
+      const rect = canvas.getBoundingClientRect();
+      const cx = rect.width / 2, cy = rect.height / 2;
+      let i = 0;
+      for (const [, h] of hubs) {
+        const a = (2 * Math.PI * i++) / hubs.size;
+        const n = nodes[h];
+        n.r = 11 + Math.min(14, n.n * 0.6);
+        n.x = cx + Math.cos(a) * 180; n.y = cy + Math.sin(a) * 180;
+      }
+      for (const [h, s] of edges) {
+        const a = Math.random() * 2 * Math.PI, d = 40 + Math.random() * 60;
+        nodes[s].x = nodes[h].x + Math.cos(a) * d;
+        nodes[s].y = nodes[h].y + Math.sin(a) * d;
+      }
+      panX = 0; panY = 0; scale = 1;
+    }
+
+    function tick() {
+      const rect = canvas.getBoundingClientRect();
+      const cx = rect.width / 2, cy = rect.height / 2;
+      // Répulsion
+      for (let i = 0; i < nodes.length; i++) {
+        const a = nodes[i];
+        for (let j = i + 1; j < nodes.length; j++) {
+          const b = nodes[j];
+          let dx = a.x - b.x, dy = a.y - b.y;
+          let d2 = dx * dx + dy * dy;
+          if (d2 < 1) { d2 = 1; dx = Math.random() - .5; dy = Math.random() - .5; }
+          if (d2 > 40000) continue;
+          const f = (a.hub || b.hub ? 900 : 350) / d2;
+          const d = Math.sqrt(d2);
+          dx /= d; dy /= d;
+          a.vx += dx * f; a.vy += dy * f;
+          b.vx -= dx * f; b.vy -= dy * f;
+        }
+      }
+      // Ressorts le long des liens
+      for (const [h, s] of edges) {
+        const a = nodes[h], b = nodes[s];
+        const dx = b.x - a.x, dy = b.y - a.y;
+        const d = Math.sqrt(dx * dx + dy * dy) || 1;
+        const f = (d - 70) * 0.02;
+        a.vx += (dx / d) * f; a.vy += (dy / d) * f;
+        b.vx -= (dx / d) * f; b.vy -= (dy / d) * f;
+      }
+      // Gravité vers le centre + amortissement
+      for (const n of nodes) {
+        if (n === dragNode) { n.vx = 0; n.vy = 0; continue; }
+        n.vx += (cx - n.x) * 0.002; n.vy += (cy - n.y) * 0.002;
+        n.vx *= 0.85; n.vy *= 0.85;
+        n.x += Math.max(-8, Math.min(8, n.vx));
+        n.y += Math.max(-8, Math.min(8, n.vy));
+      }
+    }
+
+    function draw() {
+      const rect = canvas.getBoundingClientRect();
+      ctx.clearRect(0, 0, rect.width, rect.height);
+      ctx.save();
+      ctx.translate(panX, panY);
+      ctx.scale(scale, scale);
+
+      const neighbors = new Set();
+      if (hover !== null) {
+        neighbors.add(hover);
+        for (const [h, s] of edges) {
+          if (h === hover) neighbors.add(s);
+          if (s === hover) neighbors.add(h);
+        }
+      }
+      // Liens
+      for (const [h, s] of edges) {
+        const lit = hover === null || neighbors.has(h) && neighbors.has(s) &&
+                    (h === hover || s === hover);
+        ctx.strokeStyle = colors.accent;
+        ctx.globalAlpha = lit ? (hover === null ? 0.18 : 0.6) : 0.05;
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(nodes[h].x, nodes[h].y);
+        ctx.lineTo(nodes[s].x, nodes[s].y);
+        ctx.stroke();
+      }
+      // Nœuds
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
+        const dim = hover !== null && !neighbors.has(i);
+        ctx.globalAlpha = dim ? 0.15 : 1;
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, n.r, 0, 2 * Math.PI);
+        ctx.fillStyle = n.hub ? colors.accent : (n.site && n.site.officiel ? "#8ab4f8" : colors.soft);
+        ctx.fill();
+        if (i === hover) {
+          ctx.strokeStyle = colors.text; ctx.lineWidth = 1.5; ctx.stroke();
+        }
+      }
+      // Libellés : hubs toujours, sites si zoom ou survol
+      ctx.textAlign = "center";
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
+        const show = n.hub || scale > 1.35 || neighbors.has(i);
+        if (!show) continue;
+        const dim = hover !== null && !neighbors.has(i);
+        ctx.globalAlpha = dim ? 0.15 : 1;
+        ctx.font = (n.hub ? "600 12px " : "10px ") + "system-ui, sans-serif";
+        ctx.fillStyle = n.hub ? colors.text : colors.soft;
+        ctx.fillText(n.label, n.x, n.y + n.r + 12);
+      }
+      ctx.restore();
+      ctx.globalAlpha = 1;
+    }
+
+    function loop() {
+      tick(); draw();
+      raf = requestAnimationFrame(loop);
+    }
+
+    function toWorld(evt) {
+      const rect = canvas.getBoundingClientRect();
+      return { x: (evt.clientX - rect.left - panX) / scale,
+               y: (evt.clientY - rect.top - panY) / scale };
+    }
+
+    function nodeAt(p) {
+      for (let i = nodes.length - 1; i >= 0; i--) {
+        const n = nodes[i];
+        const dx = p.x - n.x, dy = p.y - n.y;
+        if (dx * dx + dy * dy <= (n.r + 4) * (n.r + 4)) return i;
+      }
+      return null;
+    }
+
+    function bind() {
+      canvas.addEventListener("mousedown", (e) => {
+        const i = nodeAt(toWorld(e));
+        if (i !== null) dragNode = nodes[i];
+        else { panning = true; canvas.classList.add("dragging"); }
+        lastX = e.clientX; lastY = e.clientY;
+      });
+      window.addEventListener("mousemove", (e) => {
+        if (dragNode) {
+          const p = toWorld(e);
+          dragNode.x = p.x; dragNode.y = p.y;
+        } else if (panning) {
+          panX += e.clientX - lastX; panY += e.clientY - lastY;
+          lastX = e.clientX; lastY = e.clientY;
+        } else if (canvas.isConnected && !$("#graph-wrap").hidden) {
+          hover = nodeAt(toWorld(e));
+          canvas.style.cursor = hover !== null ? "pointer" : "grab";
+        }
+      });
+      window.addEventListener("mouseup", (e) => {
+        canvas.classList.remove("dragging");
+        if (dragNode || panning) {
+          const moved = Math.abs(e.clientX - lastX) + Math.abs(e.clientY - lastY);
+          if (dragNode && moved < 4) {
+            if (dragNode.site) window.open(dragNode.site.url, "_blank", "noopener");
+            else if (dragNode.cat) {
+              toggleSet(state.categories, dragNode.cat);
+              syncChips(); resetAndRender();
+            }
+          }
+        }
+        dragNode = null; panning = false;
+      });
+      canvas.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        const rect = canvas.getBoundingClientRect();
+        const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+        const factor = e.deltaY < 0 ? 1.12 : 0.9;
+        const ns = Math.max(0.3, Math.min(4, scale * factor));
+        panX = mx - ((mx - panX) / scale) * ns;
+        panY = my - ((my - panY) / scale) * ns;
+        scale = ns;
+      }, { passive: false });
+      window.addEventListener("resize", () => { if (raf) resize(); });
+    }
+
+    return {
+      update(sites) {
+        if (!canvas) {
+          canvas = $("#graph"); ctx = canvas.getContext("2d"); bind();
+        }
+        readColors(); resize(); build(sites);
+        if (!raf) loop();
+      },
+      stop() {
+        if (raf) { cancelAnimationFrame(raf); raf = null; }
+        hover = null;
+      },
+    };
+  })();
+
+  function bindViewToggle() {
+    document.querySelectorAll("#view-toggle button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        view = btn.dataset.view;
+        document.querySelectorAll("#view-toggle button").forEach((b) =>
+          b.classList.toggle("active", b === btn));
+        resetAndRender();
+      });
+    });
+  }
+
   // ---------- Thèmes ----------
   function bindThemes() {
     let saved = localStorage.getItem("oes-theme");
@@ -443,10 +710,20 @@
       localStorage.setItem("oes-theme", name);
       document.querySelectorAll("[data-set-theme]").forEach((b) =>
         b.classList.toggle("active", b.dataset.setTheme === name));
+      // La vue graphe est propre au thème Obsidian : on l'active en entrant,
+      // on revient aux cartes en sortant.
+      const obsidian = name === "obsidian";
+      $("#view-toggle").hidden = !obsidian;
+      view = obsidian ? "graphe" : "cartes";
+      document.querySelectorAll("#view-toggle button").forEach((b) =>
+        b.classList.toggle("active", b.dataset.view === view));
+      if (booted) resetAndRender();
     }
   }
 
   // ---------- Démarrage ----------
+  let booted = false;
+
   async function init() {
     bindThemes();
     try {
@@ -460,6 +737,8 @@
     buildIndex();
     buildFilters();
     bindSearch();
+    bindViewToggle();
+    booted = true;
     $("#hero-count").textContent = `${DATA.sites.length} sites`;
     render();
   }

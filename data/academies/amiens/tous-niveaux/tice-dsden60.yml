@@ -1,0 +1,17 @@
+nom: Pôle ressources TICE de la DSDEN de l'Oise
+url: https://tice.dsden60.ac-amiens.fr/
+description: Site de ressources numériques pour le premier degré de la DSDEN de
+  l'Oise (académie d'Amiens), avec accompagnement TICE pour les écoles.
+categorie: outils-numeriques
+tags:
+- dsden
+- oise
+- departement
+- tice
+- premier-degre
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- amiens

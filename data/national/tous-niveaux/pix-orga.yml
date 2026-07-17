@@ -1,0 +1,17 @@
+nom: Pix Orga
+url: https://orga.pix.fr
+description: Espace des établissements pour lancer des campagnes Pix, suivre les résultats des élèves
+  et préparer la certification.
+categorie: evaluation
+tags:
+- pix
+- competences-numeriques
+- campagnes
+- certification
+publics:
+- enseignant
+officiel: true
+gratuit: true
+niveaux:
+- college
+- lycee

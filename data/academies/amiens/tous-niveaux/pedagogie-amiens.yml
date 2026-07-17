@@ -1,0 +1,16 @@
+nom: Portail pédagogique de l'académie d'Amiens
+url: https://pedagogie.ac-amiens.fr/
+description: Portail hébergeant les sites disciplinaires (SVT, physique-chimie,
+  documentation, langues…) et les ressources pédagogiques de l'académie d'Amiens.
+categorie: preparation-cours
+tags:
+- academie
+- disciplines
+- ressources
+- pedagogie
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- amiens

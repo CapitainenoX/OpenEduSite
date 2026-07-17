@@ -1,0 +1,16 @@
+nom: PIA - Portail Intranet Académique de Besançon
+url: https://pia.ac-besancon.fr/accueil/
+description: Portail intranet de l'académie de Besançon regroupant les applications
+  web (ARENA, iProf, Magistère…) selon les publics, personnels comme partenaires.
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- besancon

@@ -1,0 +1,14 @@
+nom: Résana
+url: https://resana.numerique.gouv.fr
+description: 'Espace collaboratif de l''État : partage de documents et travail d''équipe entre agents
+  publics.'
+categorie: outils-numeriques
+tags:
+- collaboratif
+- documents
+- partage
+- agents
+publics:
+- enseignant
+officiel: true
+gratuit: true

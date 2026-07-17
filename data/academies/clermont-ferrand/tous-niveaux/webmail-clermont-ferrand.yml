@@ -1,0 +1,18 @@
+nom: Webmail académique de Clermont-Ferrand
+url: https://webmail.ac-clermont.fr
+description: Messagerie professionnelle des personnels de l'académie de Clermont-Ferrand (adresse en @ac-clermont.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- clermont-ferrand

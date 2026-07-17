@@ -1,0 +1,18 @@
+nom: Webmail académique de Besançon
+url: https://webmail.ac-besancon.fr
+description: Messagerie professionnelle des personnels de l'académie de Besançon (adresse en @ac-besancon.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- besancon

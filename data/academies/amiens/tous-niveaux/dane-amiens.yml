@@ -1,0 +1,16 @@
+nom: DANE de l'académie d'Amiens
+url: https://dane.ac-amiens.fr/
+description: Site de la délégation académique au numérique éducatif (DANE) de l'académie
+  d'Amiens, avec tutoriels, ressources et actualités sur les usages numériques.
+categorie: outils-numeriques
+tags:
+- dane
+- numerique
+- tutoriels
+- ent
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- amiens

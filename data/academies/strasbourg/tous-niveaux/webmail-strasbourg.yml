@@ -1,0 +1,18 @@
+nom: Webmail académique de Strasbourg
+url: https://webmail.ac-strasbourg.fr
+description: Messagerie professionnelle des personnels de l'académie de Strasbourg (adresse en @ac-strasbourg.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- strasbourg

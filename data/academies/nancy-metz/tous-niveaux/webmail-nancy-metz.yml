@@ -1,0 +1,18 @@
+nom: Webmail académique de Nancy-Metz
+url: https://webmail.ac-nancy-metz.fr
+description: Messagerie professionnelle des personnels de l'académie de Nancy-Metz (adresse en @ac-nancy-metz.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- nancy-metz

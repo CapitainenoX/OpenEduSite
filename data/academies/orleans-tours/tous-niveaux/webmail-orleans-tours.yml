@@ -1,0 +1,18 @@
+nom: Webmail académique d'Orléans-Tours
+url: https://webmail.ac-orleans-tours.fr
+description: Messagerie professionnelle des personnels de l'académie d'Orléans-Tours (adresse en @ac-orleans-tours.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- orleans-tours

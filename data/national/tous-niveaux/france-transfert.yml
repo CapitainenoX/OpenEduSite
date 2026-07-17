@@ -1,0 +1,15 @@
+nom: France transfert
+url: https://francetransfert.numerique.gouv.fr
+description: Service de l'État pour envoyer des fichiers volumineux de façon sécurisée entre agents et
+  avec des partenaires.
+categorie: outils-numeriques
+tags:
+- fichiers
+- transfert
+- envoi
+- volumineux
+- securise
+publics:
+- enseignant
+officiel: true
+gratuit: true

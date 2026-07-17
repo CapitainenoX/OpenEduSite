@@ -1,0 +1,18 @@
+nom: Webmail académique de Rennes
+url: https://webmail.ac-rennes.fr
+description: Messagerie professionnelle des personnels de l'académie de Rennes (adresse en @ac-rennes.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- rennes

@@ -1,0 +1,18 @@
+nom: Webmail académique de Créteil
+url: https://webmail.ac-creteil.fr
+description: Messagerie professionnelle des personnels de l'académie de Créteil (adresse en @ac-creteil.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- creteil

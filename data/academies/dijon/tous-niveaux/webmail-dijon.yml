@@ -1,0 +1,18 @@
+nom: Webmail académique de Dijon
+url: https://webmail.ac-dijon.fr
+description: Messagerie professionnelle des personnels de l'académie de Dijon (adresse en @ac-dijon.fr).
+  Accès avec les identifiants académiques.
+categorie: gestion-administrative
+tags:
+- webmail
+- messagerie
+- mail
+- courriel
+- professionnel
+- academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- dijon

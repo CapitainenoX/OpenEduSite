@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie de Besançon
+url: https://arenb.ac-besancon.fr/
+description: Portail ARENA de l'académie de Besançon, accès aux applications métier
+  et de gestion pour les personnels de l'Éducation nationale.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- gestion
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- besancon

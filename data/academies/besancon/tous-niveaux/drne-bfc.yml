@@ -1,0 +1,18 @@
+nom: DRANE Bourgogne-Franche-Comté
+url: https://drne.region-academique-bourgogne-franche-comte.fr/
+description: Site de la délégation régionale académique au numérique éducatif (DRANE)
+  pour la région académique Bourgogne-Franche-Comté, commune aux académies de Besançon
+  et de Dijon.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- region-academique
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- besancon
+- dijon

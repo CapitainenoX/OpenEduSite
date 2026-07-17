@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie d'Amiens
+url: https://portail.ac-amiens.fr/arena/
+description: Portail ARENA de l'académie d'Amiens, point d'accès aux applications
+  métier (iProf, gestion administrative) pour les personnels.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- amiens

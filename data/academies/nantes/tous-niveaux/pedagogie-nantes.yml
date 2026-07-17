@@ -1,0 +1,15 @@
+nom: Portail pédagogique de Nantes
+url: https://www.pedagogie.ac-nantes.fr
+description: Espaces disciplinaires et ressources pédagogiques de l'académie de Nantes.
+categorie: preparation-cours
+tags:
+- disciplines
+- ressources
+- academie
+- sequences
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- nantes

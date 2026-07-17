@@ -1,0 +1,15 @@
+nom: Tchap
+url: https://tchap.gouv.fr
+description: Messagerie instantanée sécurisée de l'État, ouverte aux agents de l'Éducation nationale pour
+  les échanges professionnels.
+categorie: outils-numeriques
+tags:
+- messagerie
+- instantanee
+- securise
+- agents
+- etat
+publics:
+- enseignant
+officiel: true
+gratuit: true
