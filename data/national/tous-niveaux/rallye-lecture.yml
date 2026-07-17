@@ -1,0 +1,21 @@
+nom: Rallye-Lecture.fr
+url: https://rallye-lecture.fr
+description: 'Rallyes lecture en ligne : l''élève lit un livre puis répond à un questionnaire, correction
+  automatique.'
+categorie: exercices-entrainement
+tags:
+- lecture
+- rallye
+- questionnaires
+- litterature
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: partiel
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

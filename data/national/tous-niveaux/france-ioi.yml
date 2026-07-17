@@ -1,0 +1,18 @@
+nom: France-IOI
+url: https://www.france-ioi.org
+description: Apprentissage de la programmation et de l'algorithmique par des exercices progressifs ; concours
+  Castor et Algoréa.
+categorie: sciences
+tags:
+- programmation
+- algorithmique
+- concours
+- castor
+publics:
+- eleve
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee

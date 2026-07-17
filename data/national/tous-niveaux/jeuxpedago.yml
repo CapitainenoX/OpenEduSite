@@ -1,0 +1,14 @@
+nom: Jeux Pédago
+url: https://www.jeuxpedago.com
+description: Jeux pédagogiques en ligne du CP à la terminale, avec suivi de classe gratuit.
+categorie: exercices-entrainement
+tags:
+- jeux
+- revision
+- suivi
+- toutes-matieres
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: true

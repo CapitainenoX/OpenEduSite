@@ -1,0 +1,21 @@
+nom: Educartable
+url: https://www.educartable.com
+description: Cahier de textes et carnet de liaison numériques pour l'école primaire, simple pour les familles.
+categorie: vie-scolaire
+tags:
+- cahier-de-textes
+- liaison
+- devoirs
+- primaire
+- parents
+publics:
+- enseignant
+- parent
+officiel: false
+gratuit: partiel
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

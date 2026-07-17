@@ -1,0 +1,18 @@
+nom: Mon ENT Occitanie
+url: https://www.mon-ent-occitanie.fr
+description: ENT des écoles, collèges et lycées d'Occitanie.
+categorie: ent
+tags:
+- ent
+- occitanie
+- messagerie
+- cahier-de-textes
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+academies:
+- toulouse
+- montpellier

@@ -1,0 +1,15 @@
+nom: Dessine-moi une histoire
+url: https://dessinemoiunehistoire.net
+description: 'Ressources pour la maternelle : jeux, comptines, exploitation d''albums.'
+categorie: preparation-cours
+tags:
+- maternelle
+- albums
+- comptines
+- jeux
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- maternelle

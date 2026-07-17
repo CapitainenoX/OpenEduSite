@@ -1,0 +1,21 @@
+nom: Les Fondamentaux
+url: https://lesfondamentaux.reseau-canope.fr
+description: Centaines de capsules vidéo (Canopé) pour comprendre les notions du primaire.
+categorie: ressources-pedagogiques
+tags:
+- videos
+- capsules
+- notions
+- classe-inversee
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

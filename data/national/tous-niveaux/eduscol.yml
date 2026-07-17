@@ -1,0 +1,13 @@
+nom: "Éduscol"
+url: "https://eduscol.education.fr"
+description: >
+  Le site officiel d'information et d'accompagnement des professionnels de
+  l'éducation. Programmes officiels, ressources d'accompagnement, actualités
+  pédagogiques et textes de référence pour tous les niveaux.
+categorie: "institutionnel"
+tags: [programmes, officiel, ministere, ressources, textes-officiels, bo]
+publics: [enseignant, direction]
+niveaux: [tous]
+academies: [toutes]
+officiel: true
+gratuit: true

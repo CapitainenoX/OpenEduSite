@@ -1,0 +1,20 @@
+nom: Académie de Strasbourg
+url: https://www.ac-strasbourg.fr
+description: 'Site officiel de l''académie (Strasbourg) : actualités, circulaires, concours et mouvement,
+  informations pour les personnels et les familles.'
+categorie: institutionnel
+tags:
+- academie
+- rectorat
+- circulaires
+- concours
+- mouvement
+- personnels
+publics:
+- enseignant
+- direction
+- parent
+officiel: true
+gratuit: true
+academies:
+- strasbourg

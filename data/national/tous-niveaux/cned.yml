@@ -1,0 +1,15 @@
+nom: CNED
+url: https://www.cned.fr
+description: 'Centre national d''enseignement à distance : scolarité complète, soutien et formations diplômantes.'
+categorie: institutionnel
+tags:
+- distance
+- scolarite
+- formation
+- cours
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: false

@@ -1,0 +1,18 @@
+nom: Les Bons Profs
+url: https://www.lesbonsprofs.com
+description: Vidéos de méthode et de rappels de cours, stages de révision pour le secondaire.
+categorie: exercices-entrainement
+tags:
+- videos
+- revisions
+- methode
+- bac
+- brevet
+publics:
+- eleve
+- parent
+officiel: false
+gratuit: partiel
+niveaux:
+- college
+- lycee

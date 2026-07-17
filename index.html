@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="clair">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenEduSite — L'annuaire des sites de l'éducation</title>
+  <meta name="description" content="Tous les sites utiles aux enseignants, réunis et classés : Éducation nationale, ENT, ressources pédagogiques, exercices, outils numériques. Recherche par mots-clés, filtres par niveau et académie.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%233b5bdb'/%3E%3Ctext x='16' y='23' font-size='19' font-family='Georgia,serif' font-weight='bold' fill='white' text-anchor='middle'%3EÉ%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./" aria-label="OpenEduSite, retour à l'accueil">
+      <span class="brand-mark" aria-hidden="true">É</span>
+      <span class="brand-text">
+        <strong>OpenEduSite</strong>
+        <small>L'annuaire des sites de l'éducation</small>
+      </span>
+    </a>
+    <div class="theme-switch" role="group" aria-label="Choix du thème">
+      <button type="button" data-set-theme="clair" title="Thème clair">☀️ Clair</button>
+      <button type="button" data-set-theme="sombre" title="Thème sombre">🌙 Sombre</button>
+      <button type="button" data-set-theme="obsidienne" title="Thème obsidienne">🟣 Obsidienne</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Trouvez le bon site, tout de suite.</h1>
+    <p class="hero-sub">
+      ENT, gestion des élèves, ressources pédagogiques, exercices, orientation…
+      <span id="hero-count">Tous les sites</span> utiles aux enseignants, vérifiés et classés.
+    </p>
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.8-4.8m1.8-5.2a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
+      <input type="search" id="search" placeholder="Rechercher : ENT, élèves, dictées, notes, orientation…"
+             autocomplete="off" spellcheck="false" aria-label="Rechercher un site">
+      <kbd class="search-kbd" title="Appuyez sur / pour rechercher">/</kbd>
+    </div>
+    <div class="quick-tags" aria-label="Recherches suggérées">
+      Essayez :
+      <button class="quick-tag" data-q="ent">ENT</button>
+      <button class="quick-tag" data-q="élèves">élèves</button>
+      <button class="quick-tag" data-q="dictées">dictées</button>
+      <button class="quick-tag" data-q="évaluation">évaluation</button>
+      <button class="quick-tag" data-q="orientation">orientation</button>
+      <button class="quick-tag" data-q="quiz">quiz</button>
+    </div>
+  </div>
+</section>
+
+<div class="layout">
+
+  <aside class="filters" aria-label="Filtres">
+    <div class="filters-head">
+      <h2>Filtres</h2>
+      <button type="button" id="reset-filters" class="link-btn">Tout effacer</button>
+    </div>
+
+    <details class="filter-group" open>
+      <summary>Niveau</summary>
+      <div class="chip-row" id="filter-niveaux"></div>
+    </details>
+
+    <details class="filter-group" open>
+      <summary>Académie</summary>
+      <select id="filter-academie" aria-label="Filtrer par académie">
+        <option value="">Toute la France</option>
+      </select>
+      <p class="filter-hint">Les sites nationaux restent affichés.</p>
+    </details>
+
+    <details class="filter-group" open>
+      <summary>Catégorie</summary>
+      <div class="check-list" id="filter-categories"></div>
+    </details>
+
+    <details class="filter-group">
+      <summary>Public</summary>
+      <div class="chip-row" id="filter-publics"></div>
+    </details>
+
+    <details class="filter-group">
+      <summary>Autres critères</summary>
+      <label class="switch-line"><input type="checkbox" id="filter-officiel"> Sites officiels uniquement</label>
+      <label class="switch-line"><input type="checkbox" id="filter-gratuit"> Sites gratuits uniquement</label>
+    </details>
+  </aside>
+
+  <main class="results" aria-live="polite">
+    <div class="results-bar">
+      <p id="results-count">Chargement de l'annuaire…</p>
+      <label class="sort-wrap">Trier :
+        <select id="sort">
+          <option value="pertinence">Pertinence</option>
+          <option value="az">Nom A → Z</option>
+          <option value="za">Nom Z → A</option>
+          <option value="categorie">Catégorie</option>
+        </select>
+      </label>
+    </div>
+    <div id="active-filters" class="active-filters" hidden></div>
+    <div id="cards" class="cards"></div>
+    <div id="empty" class="empty" hidden>
+      <p><strong>Aucun site ne correspond à cette recherche.</strong></p>
+      <p>Essayez un mot plus général (« élèves », « exercices », « ENT »)
+         ou <button class="link-btn" id="empty-reset">effacez les filtres</button>.</p>
+      <p>Il manque un site ? <a href="https://github.com/CapitainenoX/OpenEduSite/blob/main/data/README.md">Ajoutez-le en 2 minutes</a>.</p>
+    </div>
+  </main>
+
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p><strong>OpenEduSite</strong> est un annuaire libre et collaboratif des sites utiles à l'éducation en France.</p>
+    <p>Un site manque, une adresse a changé ?
+       <a href="https://github.com/CapitainenoX/OpenEduSite/blob/main/data/README.md">Contribuez en déposant un simple fichier</a> —
+       aucune connaissance en code nécessaire.</p>
+  </div>
+</footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

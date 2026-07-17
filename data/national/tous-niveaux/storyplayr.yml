@@ -1,0 +1,20 @@
+nom: Storyplay'r
+url: https://www.storyplayr.com
+description: Bibliothèque numérique d'albums jeunesse à lire et écouter, avec outils pour la classe.
+categorie: ressources-pedagogiques
+tags:
+- albums
+- lecture
+- bibliotheque
+- jeunesse
+publics:
+- enseignant
+- eleve
+- parent
+officiel: false
+gratuit: false
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2

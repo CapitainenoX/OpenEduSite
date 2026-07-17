@@ -1,0 +1,23 @@
+nom: Il était une histoire
+url: https://www.iletaitunehistoire.com
+description: Bibliothèque numérique gratuite d'albums, contes et documentaires à lire et à écouter.
+categorie: ressources-pedagogiques
+tags:
+- lecture
+- albums
+- contes
+- audio
+- bibliotheque
+publics:
+- enseignant
+- eleve
+- parent
+officiel: false
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

@@ -1,0 +1,14 @@
+nom: Code.org
+url: https://code.org
+description: Parcours d'initiation à la programmation, de la maternelle au lycée, avec espace classe.
+categorie: outils-numeriques
+tags:
+- programmation
+- code
+- parcours
+- heure-de-code
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: true

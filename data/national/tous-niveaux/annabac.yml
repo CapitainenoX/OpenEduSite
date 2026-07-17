@@ -1,0 +1,17 @@
+nom: Annabac
+url: https://www.annabac.com
+description: Annales corrigées, fiches et quiz pour préparer le bac et le brevet.
+categorie: exercices-entrainement
+tags:
+- annales
+- bac
+- brevet
+- revisions
+publics:
+- eleve
+- parent
+officiel: false
+gratuit: partiel
+niveaux:
+- college
+- lycee

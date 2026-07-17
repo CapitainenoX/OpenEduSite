@@ -1,0 +1,18 @@
+nom: Lalilo
+url: https://lalilo.com
+description: Parcours de lecture différencié et adaptatif du CP au CE2, avec suivi enseignant.
+categorie: exercices-entrainement
+tags:
+- lecture
+- differenciation
+- fluence
+- adaptatif
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: partiel
+niveaux:
+- cp
+- ce1
+- ce2

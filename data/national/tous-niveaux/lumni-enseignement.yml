@@ -1,0 +1,15 @@
+nom: Lumni Enseignement
+url: https://enseignants.lumni.fr
+description: 'Médiathèque pédagogique pour les enseignants (successeur d''Éduthèque) : milliers de vidéos
+  et documents indexés par programme.'
+categorie: preparation-cours
+tags:
+- videos
+- ina
+- edutheque
+- supports
+- programmes
+publics:
+- enseignant
+officiel: true
+gratuit: true

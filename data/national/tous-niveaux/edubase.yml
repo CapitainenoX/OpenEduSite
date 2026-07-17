@@ -1,0 +1,13 @@
+nom: Édubase
+url: https://edubase.eduscol.education.fr
+description: Banque nationale de scénarios pédagogiques validés par les académies, toutes disciplines.
+categorie: preparation-cours
+tags:
+- scenarios
+- sequences
+- banque
+- disciplines
+publics:
+- enseignant
+officiel: true
+gratuit: true

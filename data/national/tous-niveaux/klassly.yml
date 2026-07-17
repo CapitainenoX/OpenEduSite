@@ -1,0 +1,21 @@
+nom: Klassly
+url: https://klassly.com
+description: 'Application de communication école-familles (ex-Klassroom) : fil de classe, messages, sondages.'
+categorie: vie-scolaire
+tags:
+- communication
+- parents
+- messages
+- fil-de-classe
+publics:
+- enseignant
+- parent
+officiel: false
+gratuit: partiel
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

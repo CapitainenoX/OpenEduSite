@@ -1,0 +1,19 @@
+nom: e-lyco
+url: https://www.e-lyco.fr
+description: ENT des collèges et lycées des Pays de la Loire.
+categorie: ent
+tags:
+- ent
+- pays-de-la-loire
+- cahier-de-textes
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- college
+- lycee
+academies:
+- nantes

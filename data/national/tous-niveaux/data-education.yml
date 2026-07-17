@@ -1,0 +1,13 @@
+nom: data.education.gouv.fr
+url: https://data.education.gouv.fr
+description: 'Données ouvertes du ministère : annuaire des établissements, effectifs, résultats d''examens.'
+categorie: annuaires-portails
+tags:
+- open-data
+- annuaire
+- etablissements
+- statistiques
+publics:
+- enseignant
+officiel: true
+gratuit: true

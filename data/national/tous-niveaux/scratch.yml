@@ -1,0 +1,20 @@
+nom: Scratch
+url: https://scratch.mit.edu
+description: Environnement de programmation par blocs du MIT, référence pour l'initiation au code.
+categorie: outils-numeriques
+tags:
+- programmation
+- code
+- blocs
+- initiation
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: true
+niveaux:
+- ce1
+- ce2
+- cm1
+- cm2
+- college

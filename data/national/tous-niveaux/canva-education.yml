@@ -1,0 +1,13 @@
+nom: Canva pour l'Éducation
+url: https://www.canva.com/fr_fr/education/
+description: Outil de création graphique avec offre gratuite complète pour enseignants et classes.
+categorie: outils-numeriques
+tags:
+- graphisme
+- affiches
+- presentations
+- creation
+publics:
+- enseignant
+officiel: false
+gratuit: true

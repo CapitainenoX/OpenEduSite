@@ -1,0 +1,21 @@
+nom: Atrium
+url: https://www.atrium-sud.fr
+description: ENT des lycées de la région Sud Provence-Alpes-Côte d'Azur.
+categorie: ent
+tags:
+- ent
+- region-sud
+- paca
+- lycee
+- atrium
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- lycee
+academies:
+- aix-marseille
+- nice

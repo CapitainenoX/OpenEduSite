@@ -1,0 +1,16 @@
+nom: LaboMep
+url: https://labomep.sesamath.net
+description: Plateforme Sésamath pour assigner des parcours d'exercices de maths à ses classes.
+categorie: exercices-entrainement
+tags:
+- maths
+- parcours
+- suivi
+- exercices
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee

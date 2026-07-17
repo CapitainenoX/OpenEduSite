@@ -1,0 +1,14 @@
+nom: "I-Prof, l'assistant carrière"
+url: "https://www.education.gouv.fr/i-prof-l-assistant-carriere-12194"
+description: >
+  Espace personnel de gestion de carrière des enseignants : consultation et
+  mise à jour du dossier administratif, suivi des promotions, évaluations et
+  mobilité, dialogue avec le correspondant de gestion. L'accès se fait via le
+  portail ARENA de son académie.
+categorie: "gestion-administrative"
+tags: [carriere, mutation, promotion, dossier-administratif, avancement, arena, siam, gestion]
+publics: [enseignant]
+niveaux: [tous]
+academies: [toutes]
+officiel: true
+gratuit: true

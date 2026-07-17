@@ -1,0 +1,13 @@
+nom: Kahoot!
+url: https://kahoot.com
+description: Quiz interactifs en direct, sur vidéoprojecteur et appareils des élèves.
+categorie: outils-numeriques
+tags:
+- quiz
+- jeu
+- evaluation
+- direct
+publics:
+- enseignant
+officiel: false
+gratuit: partiel

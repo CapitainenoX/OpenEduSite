@@ -1,0 +1,20 @@
+nom: Cenicienta
+url: https://cenicienta.fr
+description: Séquences et supports pour les cycles 2 et 3, dont beaucoup d'histoire, de sciences et d'arts.
+categorie: preparation-cours
+tags:
+- sequences
+- histoire
+- sciences
+- arts
+- blog
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

@@ -1,0 +1,14 @@
+nom: Maxicours
+url: https://www.maxicours.com
+description: Plateforme de soutien scolaire en ligne du CP à la terminale.
+categorie: exercices-entrainement
+tags:
+- soutien
+- cours
+- exercices
+- toutes-matieres
+publics:
+- eleve
+- parent
+officiel: false
+gratuit: false

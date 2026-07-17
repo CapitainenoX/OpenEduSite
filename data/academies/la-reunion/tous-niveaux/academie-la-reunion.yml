@@ -1,0 +1,20 @@
+nom: Académie de La Réunion
+url: https://www.ac-reunion.fr
+description: 'Site officiel de l''académie (La Réunion) : actualités, circulaires, concours et mouvement,
+  informations pour les personnels et les familles.'
+categorie: institutionnel
+tags:
+- academie
+- rectorat
+- circulaires
+- concours
+- mouvement
+- personnels
+publics:
+- enseignant
+- direction
+- parent
+officiel: true
+gratuit: true
+academies:
+- la-reunion

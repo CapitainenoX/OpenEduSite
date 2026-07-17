@@ -1,0 +1,16 @@
+nom: Logicieleducatif.fr
+url: https://www.logicieleducatif.fr
+description: Jeux éducatifs en ligne conformes aux programmes, de la maternelle au collège.
+categorie: exercices-entrainement
+tags:
+- jeux
+- exercices
+- maths
+- lecture
+- en-ligne
+publics:
+- enseignant
+- eleve
+- parent
+officiel: false
+gratuit: true

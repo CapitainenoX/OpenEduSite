@@ -1,0 +1,16 @@
+nom: Skolengo
+url: https://www.skolengo.com
+description: Éditeur d'ENT et de solutions de vie scolaire déployés dans de nombreuses régions et à l'AEFE.
+categorie: ent
+tags:
+- ent
+- vie-scolaire
+- editeur
+- messagerie
+publics:
+- enseignant
+officiel: false
+gratuit: false
+niveaux:
+- college
+- lycee

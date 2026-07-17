@@ -1,0 +1,22 @@
+nom: Toute Mon Année
+url: https://www.toutemonannee.com
+description: Blog de classe et cahier de liaison numérique gratuit pour les écoles.
+categorie: vie-scolaire
+tags:
+- blog
+- liaison
+- photos
+- primaire
+- parents
+publics:
+- enseignant
+- parent
+officiel: false
+gratuit: partiel
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

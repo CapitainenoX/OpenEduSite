@@ -1,0 +1,21 @@
+nom: ÉCLAT-BFC
+url: https://www.eclat-bfc.fr
+description: ENT des collèges et lycées de Bourgogne-Franche-Comté.
+categorie: ent
+tags:
+- ent
+- bourgogne
+- franche-comte
+- messagerie
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- college
+- lycee
+academies:
+- besancon
+- dijon

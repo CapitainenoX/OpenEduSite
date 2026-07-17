@@ -1,0 +1,15 @@
+nom: Lumni
+url: https://www.lumni.fr
+description: Vidéos, jeux et dossiers de l'audiovisuel public pour apprendre, de la maternelle au lycée.
+categorie: ressources-pedagogiques
+tags:
+- videos
+- revisions
+- audiovisuel
+- culture
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true

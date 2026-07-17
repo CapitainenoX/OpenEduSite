@@ -1,0 +1,17 @@
+nom: Parcoursup
+url: https://www.parcoursup.gouv.fr
+description: Plateforme nationale d'admission dans l'enseignement supérieur.
+categorie: orientation
+tags:
+- superieur
+- voeux
+- admission
+- terminale
+publics:
+- eleve
+- parent
+- enseignant
+officiel: true
+gratuit: true
+niveaux:
+- lycee

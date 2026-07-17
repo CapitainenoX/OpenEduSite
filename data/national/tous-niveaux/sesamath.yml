@@ -1,0 +1,16 @@
+nom: Sésamath
+url: https://www.sesamath.net
+description: 'Association de professeurs de maths : manuels libres, cahiers et outils gratuits.'
+categorie: sciences
+tags:
+- maths
+- manuels
+- libre
+- association
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee

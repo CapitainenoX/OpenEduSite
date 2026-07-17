@@ -1,0 +1,21 @@
+nom: Charivari à l'école
+url: https://www.charivarialecole.fr
+description: 'Blog incontournable d''une enseignante : ceintures de compétences, dictées, ateliers, du
+  CP au CM2.'
+categorie: preparation-cours
+tags:
+- fiches
+- ceintures
+- dictees
+- ateliers
+- blog
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

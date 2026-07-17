@@ -1,0 +1,15 @@
+nom: Devenir enseignant
+url: https://www.devenirenseignant.gouv.fr
+description: 'Site officiel des concours de recrutement : CRPE, CAPES, agrégation, calendriers et inscriptions.'
+categorie: institutionnel
+tags:
+- concours
+- crpe
+- capes
+- agregation
+- recrutement
+- carriere
+publics:
+- enseignant
+officiel: true
+gratuit: true

@@ -1,0 +1,21 @@
+nom: USEP
+url: https://usep.org
+description: 'Union sportive de l''enseignement du premier degré : rencontres sportives et ressources
+  EPS.'
+categorie: ressources-pedagogiques
+tags:
+- eps
+- sport
+- rencontres
+- associations
+publics:
+- enseignant
+officiel: true
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

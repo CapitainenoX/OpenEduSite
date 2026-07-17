@@ -1,0 +1,13 @@
+nom: M@gistère
+url: https://magistere.education.fr
+description: Plateforme officielle de formation continue à distance des personnels de l'Éducation nationale.
+categorie: formation-enseignants
+tags:
+- formation
+- autoformation
+- parcours
+- formation-continue
+publics:
+- enseignant
+officiel: true
+gratuit: true

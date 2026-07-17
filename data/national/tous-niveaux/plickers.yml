@@ -1,0 +1,13 @@
+nom: Plickers
+url: https://get.plickers.com
+description: 'Quiz en classe sans appareils élèves : cartes papier scannées par le téléphone de l''enseignant.'
+categorie: outils-numeriques
+tags:
+- quiz
+- cartes
+- evaluation
+- sans-equipement
+publics:
+- enseignant
+officiel: false
+gratuit: partiel

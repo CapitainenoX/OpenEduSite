@@ -1,0 +1,13 @@
+nom: FCPE
+url: https://www.fcpe.asso.fr
+description: 'Première fédération de parents d''élèves : droits des familles, représentation aux conseils.'
+categorie: parents
+tags:
+- parents
+- federation
+- conseils
+- droits
+publics:
+- parent
+officiel: false
+gratuit: true

@@ -1,0 +1,13 @@
+nom: "Pronote"
+url: "https://www.index-education.com/fr/logiciel-gestion-vie-scolaire.php"
+description: >
+  Logiciel de vie scolaire le plus utilisé dans le second degré : notes,
+  absences, cahier de textes, emploi du temps, communication avec les
+  familles. Souvent intégré à l'ENT de l'établissement.
+categorie: "vie-scolaire"
+tags: [ent, notes, absences, cahier-de-textes, emploi-du-temps, eleves, vie-scolaire, bulletins]
+publics: [enseignant, eleve, parent, direction]
+niveaux: [college, lycee]
+academies: [toutes]
+officiel: false
+gratuit: false

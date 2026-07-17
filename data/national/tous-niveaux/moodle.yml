@@ -1,0 +1,18 @@
+nom: Moodle
+url: https://moodle.org
+description: Plateforme libre de cours en ligne, largement utilisée au lycée et dans le supérieur (dont
+  Éléa).
+categorie: outils-numeriques
+tags:
+- lms
+- cours-en-ligne
+- parcours
+- quiz
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee
+- superieur

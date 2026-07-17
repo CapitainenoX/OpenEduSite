@@ -1,0 +1,14 @@
+nom: Gallica
+url: https://gallica.bnf.fr
+description: 'Bibliothèque numérique de la BnF : millions de documents patrimoniaux libres d''accès.'
+categorie: lettres-histoire
+tags:
+- bnf
+- patrimoine
+- archives
+- litterature
+- presse
+publics:
+- enseignant
+officiel: true
+gratuit: true

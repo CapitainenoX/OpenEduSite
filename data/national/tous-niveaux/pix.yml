@@ -1,0 +1,14 @@
+nom: "Pix"
+url: "https://pix.fr/"
+description: >
+  Service public en ligne pour évaluer, développer et certifier les compétences
+  numériques, fondé sur le cadre de référence CRCN. La certification Pix est
+  passée par les élèves de 3e et de terminale ; les enseignants créent des
+  parcours et suivent les résultats.
+categorie: "evaluation"
+tags: [numerique, competences, certification, crcn, b2i, eleves, evaluation]
+publics: [enseignant, eleve]
+niveaux: [tous]
+academies: [toutes]
+officiel: true
+gratuit: true

@@ -1,0 +1,13 @@
+nom: "Bulletin officiel de l'Éducation nationale (BO)"
+url: "https://www.education.gouv.fr/le-bulletin-officiel-de-l-education-nationale-de-la-jeunesse-et-des-sports"
+description: >
+  Publication officielle des actes administratifs du ministère : décrets,
+  arrêtés, circulaires, notes de service, programmes et calendriers. Référence
+  pour connaître les textes qui encadrent le métier et la scolarité.
+categorie: "institutionnel"
+tags: [bo, textes-officiels, circulaires, programmes, decrets, reglementation, officiel]
+publics: [enseignant, direction]
+niveaux: [tous]
+academies: [toutes]
+officiel: true
+gratuit: true

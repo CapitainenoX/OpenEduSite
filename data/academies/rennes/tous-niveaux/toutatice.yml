@@ -1,0 +1,17 @@
+nom: Toutatice
+url: https://www.toutatice.fr
+description: Portail et ENT de l'ensemble de la communauté éducative bretonne.
+categorie: ent
+tags:
+- ent
+- bretagne
+- portail
+- services
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+academies:
+- rennes

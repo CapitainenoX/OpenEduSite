@@ -1,0 +1,13 @@
+nom: Audio-Lingua
+url: https://audio-lingua.ac-versailles.fr
+description: Banque de fichiers audio authentiques en 14 langues, classés par niveau du CECRL.
+categorie: langues
+tags:
+- audio
+- langues
+- comprehension-orale
+- cecrl
+publics:
+- enseignant
+officiel: true
+gratuit: true

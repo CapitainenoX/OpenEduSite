@@ -1,0 +1,16 @@
+nom: Khan Academy
+url: https://fr.khanacademy.org
+description: Cours et exercices gratuits, notamment en mathématiques et sciences, avec suivi de classe.
+categorie: exercices-entrainement
+tags:
+- maths
+- sciences
+- videos
+- exercices
+- gratuit
+publics:
+- eleve
+- enseignant
+- parent
+officiel: false
+gratuit: true

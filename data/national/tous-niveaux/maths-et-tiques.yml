@@ -1,0 +1,17 @@
+nom: Maths et tiques
+url: https://www.maths-et-tiques.fr
+description: 'Le site d''Yvan Monka : cours complets, vidéos et exercices de maths du collège au lycée.'
+categorie: sciences
+tags:
+- maths
+- videos
+- cours
+- youtube
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee

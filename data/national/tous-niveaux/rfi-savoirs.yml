@@ -1,0 +1,13 @@
+nom: RFI Savoirs
+url: https://savoirs.rfi.fr
+description: Apprendre et enseigner le français avec l'actualité radiophonique de RFI.
+categorie: langues
+tags:
+- fle
+- francais
+- audio
+- actualite
+publics:
+- enseignant
+officiel: true
+gratuit: true

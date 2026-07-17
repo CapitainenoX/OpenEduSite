@@ -1,0 +1,59 @@
+# ============================================================
+# TEMPLATE — Ajouter un site à l'annuaire
+# ============================================================
+# 1. Copiez ce fichier.
+# 2. Renommez-le : nom-du-site.yml (minuscules, tirets, sans accents).
+# 3. Remplissez les champs ci-dessous.
+# 4. Déposez-le dans le bon dossier :
+#       data/national/<niveau>/            → site valable partout en France
+#       data/academies/<académie>/<niveau>/ → site propre à une académie
+#    Niveaux possibles : tous-niveaux, maternelle, cp, ce1, ce2,
+#                        cm1, cm2, college, lycee, superieur
+# 5. C'est tout ! Le site est ajouté automatiquement à la prochaine
+#    publication (aucun code à modifier).
+#
+# Les champs marqués (requis) sont obligatoires, les autres optionnels.
+# Si "niveaux" ou "academies" sont absents, ils sont déduits du dossier.
+# ============================================================
+
+# (requis) Nom du site tel qu'affiché
+nom: "Nom du site"
+
+# (requis) Adresse complète, avec https://
+url: "https://exemple.fr"
+
+# (requis) Description claire en 1 à 3 phrases : à quoi sert le site,
+# pour qui, dans quel cadre.
+description: >
+  Décrivez ici le site en quelques phrases simples.
+
+# (requis) Une seule catégorie parmi :
+#   institutionnel          ent                    vie-scolaire
+#   gestion-administrative  ressources-pedagogiques preparation-cours
+#   exercices-entrainement  evaluation             orientation
+#   formation-enseignants   outils-numeriques      langues
+#   sciences                lettres-histoire       arts-culture
+#   emi-citoyennete         inclusion-ash          parents
+#   annuaires-portails
+categorie: "ressources-pedagogiques"
+
+# (requis) Mots-clés de recherche : pensez aux mots que taperait
+# un enseignant (ex : ent, notes, absences, eleves, fiches, dictees…)
+tags: [mot-cle-1, mot-cle-2, mot-cle-3]
+
+# (requis) À qui s'adresse le site : enseignant, eleve, parent, direction
+publics: [enseignant]
+
+# (optionnel) Niveaux concernés — sinon déduit du dossier.
+# Valeurs : tous, maternelle, cp, ce1, ce2, cm1, cm2, college, lycee, superieur
+# niveaux: [cm1, cm2]
+
+# (optionnel) Académies concernées — sinon déduit du dossier.
+# "toutes" ou liste : aix-marseille, paris, lyon…
+# academies: [toutes]
+
+# (optionnel) true si site officiel de l'État / Éducation nationale
+officiel: false
+
+# (optionnel) gratuit : true, false, ou "partiel" (freemium)
+gratuit: true

@@ -1,0 +1,14 @@
+nom: "ONDE - Outil numérique pour la direction d'école"
+url: "https://eduscol.education.gouv.fr/4911/onde-outil-numerique-pour-la-direction-d-ecole"
+description: >
+  Application de gestion des élèves du premier degré, utilisée au quotidien par
+  les directeurs d'école : inscriptions, admissions, répartitions, listes
+  d'élèves et échanges avec la mairie et l'inspection. Anciennement Base élèves
+  1er degré (BE1D).
+categorie: "gestion-administrative"
+tags: [eleves, inscription, gestion, liste-eleves, directeur, base-eleves, be1d, premier-degre]
+publics: [direction, enseignant]
+niveaux: [maternelle, cp, ce1, ce2, cm1, cm2]
+academies: [toutes]
+officiel: true
+gratuit: true

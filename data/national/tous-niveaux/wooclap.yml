@@ -1,0 +1,13 @@
+nom: Wooclap
+url: https://www.wooclap.com
+description: Sondages et questions interactives en direct ; gratuit pour l'enseignement scolaire français.
+categorie: outils-numeriques
+tags:
+- sondages
+- interactivite
+- questions
+- vote
+publics:
+- enseignant
+officiel: false
+gratuit: partiel

@@ -1,0 +1,13 @@
+nom: Institut français de l'Éducation (IFÉ)
+url: http://ife.ens-lyon.fr
+description: Recherche et ressources scientifiques sur l'éducation, adossées à l'ENS de Lyon.
+categorie: formation-enseignants
+tags:
+- recherche
+- pedagogie
+- veille
+- neopass
+publics:
+- enseignant
+officiel: true
+gratuit: true

@@ -1,0 +1,18 @@
+nom: ENT Hauts-de-France
+url: https://enthdf.fr
+description: ENT des écoles, collèges et lycées des Hauts-de-France.
+categorie: ent
+tags:
+- ent
+- hauts-de-france
+- messagerie
+- cahier-de-textes
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+academies:
+- lille
+- amiens

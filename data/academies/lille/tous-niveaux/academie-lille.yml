@@ -1,0 +1,20 @@
+nom: Académie de Lille
+url: https://www.ac-lille.fr
+description: 'Site officiel de l''académie (Lille) : actualités, circulaires, concours et mouvement, informations
+  pour les personnels et les familles.'
+categorie: institutionnel
+tags:
+- academie
+- rectorat
+- circulaires
+- concours
+- mouvement
+- personnels
+publics:
+- enseignant
+- direction
+- parent
+officiel: true
+gratuit: true
+academies:
+- lille

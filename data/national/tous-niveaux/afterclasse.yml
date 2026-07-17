@@ -1,0 +1,17 @@
+nom: Afterclasse
+url: https://www.afterclasse.fr
+description: Fiches et exercices gratuits par les éditeurs Lelivrescolaire.fr, du collège au lycée.
+categorie: exercices-entrainement
+tags:
+- fiches
+- exercices
+- revisions
+- gratuit
+publics:
+- eleve
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee

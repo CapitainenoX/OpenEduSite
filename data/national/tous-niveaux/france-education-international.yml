@@ -1,0 +1,14 @@
+nom: France Éducation international
+url: https://www.france-education-international.fr
+description: 'Opérateur public de la coopération éducative : DELF-DALF, échanges, mobilité des enseignants.'
+categorie: institutionnel
+tags:
+- fle
+- delf
+- dalf
+- international
+- mobilite
+publics:
+- enseignant
+officiel: true
+gratuit: true

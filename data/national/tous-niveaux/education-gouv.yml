@@ -1,0 +1,13 @@
+nom: "Ministère de l'Éducation nationale (education.gouv.fr)"
+url: "https://www.education.gouv.fr/"
+description: >
+  Site officiel du ministère de l'Éducation nationale : fonctionnement du
+  système éducatif, réformes, textes de référence, carrières, concours,
+  aides et démarches. Point d'entrée institutionnel pour tous les personnels.
+categorie: "institutionnel"
+tags: [ministere, officiel, textes-officiels, reformes, carriere, concours, systeme-educatif]
+publics: [enseignant, direction, parent]
+niveaux: [tous]
+academies: [toutes]
+officiel: true
+gratuit: true

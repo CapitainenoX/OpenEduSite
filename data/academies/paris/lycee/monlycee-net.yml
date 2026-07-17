@@ -1,0 +1,21 @@
+nom: MonLycée.net
+url: https://monlycee.net
+description: ENT des lycées d'Île-de-France.
+categorie: ent
+tags:
+- ent
+- ile-de-france
+- lycee
+- messagerie
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- lycee
+academies:
+- paris
+- creteil
+- versailles

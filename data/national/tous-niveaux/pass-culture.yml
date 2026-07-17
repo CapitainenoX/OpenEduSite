@@ -1,0 +1,17 @@
+nom: pass Culture
+url: https://pass.culture.fr
+description: Dispositif national d'accès à la culture ; sa part collective finance les sorties et projets
+  culturels des classes (via ADAGE).
+categorie: arts-culture
+tags:
+- culture
+- sorties-scolaires
+- projets
+- adage
+publics:
+- enseignant
+officiel: true
+gratuit: true
+niveaux:
+- college
+- lycee

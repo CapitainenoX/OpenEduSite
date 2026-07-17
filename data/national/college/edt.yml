@@ -1,0 +1,17 @@
+nom: EDT — Index Éducation
+url: https://www.index-education.com/fr/logiciel-emploi-du-temps.php
+description: Logiciel de conception des emplois du temps des collèges et lycées, couplé à Pronote.
+categorie: vie-scolaire
+tags:
+- emploi-du-temps
+- edt
+- planning
+- salles
+publics:
+- direction
+- enseignant
+officiel: false
+gratuit: false
+niveaux:
+- college
+- lycee

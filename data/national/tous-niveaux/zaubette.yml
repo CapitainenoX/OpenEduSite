@@ -1,0 +1,18 @@
+nom: Zaubette
+url: https://www.zaubette.fr
+description: 'Ressources pour la maternelle et le CP-CE1 : ateliers autonomes, fiches de lecture et d''écriture.'
+categorie: preparation-cours
+tags:
+- ateliers
+- autonomie
+- lecture
+- ecriture
+- blog
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1

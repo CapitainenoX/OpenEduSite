@@ -1,0 +1,16 @@
+nom: Mathenpoche
+url: https://mathenpoche.sesamath.net
+description: Exercices interactifs de mathématiques Sésamath pour le collège.
+categorie: exercices-entrainement
+tags:
+- maths
+- exercices
+- college
+- interactif
+publics:
+- eleve
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- college

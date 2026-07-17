@@ -1,0 +1,18 @@
+nom: Projet Voltaire
+url: https://www.projet-voltaire.fr
+description: Entraînement en ligne à l'orthographe avec parcours adaptatif et certification.
+categorie: exercices-entrainement
+tags:
+- orthographe
+- certification
+- francais
+- entrainement
+publics:
+- eleve
+- enseignant
+officiel: false
+gratuit: partiel
+niveaux:
+- college
+- lycee
+- superieur

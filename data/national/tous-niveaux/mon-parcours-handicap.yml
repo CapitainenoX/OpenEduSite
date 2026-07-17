@@ -1,0 +1,16 @@
+nom: Mon Parcours Handicap
+url: https://www.monparcourshandicap.gouv.fr
+description: Plateforme officielle d'information et de démarches pour les personnes en situation de handicap,
+  dont la scolarité.
+categorie: inclusion-ash
+tags:
+- handicap
+- mdph
+- aesh
+- scolarisation
+- droits
+publics:
+- parent
+- enseignant
+officiel: true
+gratuit: true

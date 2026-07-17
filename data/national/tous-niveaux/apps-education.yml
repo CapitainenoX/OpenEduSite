@@ -1,0 +1,17 @@
+nom: Apps.education.fr
+url: https://apps.education.fr
+description: 'Bouquet d''outils numériques libres et souverains offert aux agents : Nuage, Digipad, visio,
+  blogs, Moodle.'
+categorie: outils-numeriques
+tags:
+- outils
+- rgpd
+- nuage
+- visio
+- blog
+- moodle
+- souverain
+publics:
+- enseignant
+officiel: true
+gratuit: true

@@ -1,0 +1,18 @@
+nom: ENT77
+url: https://ent77.seine-et-marne.fr
+description: ENT des collèges de Seine-et-Marne.
+categorie: ent
+tags:
+- ent
+- seine-et-marne
+- college
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- college
+academies:
+- creteil

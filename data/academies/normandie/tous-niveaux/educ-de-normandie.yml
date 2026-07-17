@@ -1,0 +1,16 @@
+nom: L'Éduc de Normandie
+url: https://www.l-educdenormandie.fr
+description: ENT des établissements normands.
+categorie: ent
+tags:
+- ent
+- normandie
+- cahier-de-textes
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+academies:
+- normandie

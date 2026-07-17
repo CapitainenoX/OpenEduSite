@@ -1,0 +1,19 @@
+nom: Mathador
+url: https://www.mathador.fr
+description: 'Jeux de calcul mental (Canopé) : compte est bon, concours de classes, applications.'
+categorie: exercices-entrainement
+tags:
+- calcul-mental
+- jeu
+- concours
+- maths
+publics:
+- enseignant
+officiel: true
+gratuit: partiel
+niveaux:
+- ce1
+- ce2
+- cm1
+- cm2
+- college

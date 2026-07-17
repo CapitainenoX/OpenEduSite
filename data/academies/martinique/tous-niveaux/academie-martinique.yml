@@ -1,0 +1,20 @@
+nom: Académie de Martinique
+url: https://www.ac-martinique.fr
+description: 'Site officiel de l''académie (Martinique) : actualités, circulaires, concours et mouvement,
+  informations pour les personnels et les familles.'
+categorie: institutionnel
+tags:
+- academie
+- rectorat
+- circulaires
+- concours
+- mouvement
+- personnels
+publics:
+- enseignant
+- direction
+- parent
+officiel: true
+gratuit: true
+academies:
+- martinique

@@ -1,0 +1,13 @@
+nom: Classroomscreen
+url: https://classroomscreen.com
+description: 'Écran de classe à projeter : minuteur, feux de bruit, consignes, tirage au sort.'
+categorie: outils-numeriques
+tags:
+- tni
+- minuteur
+- gestion-de-classe
+- affichage
+publics:
+- enseignant
+officiel: false
+gratuit: partiel

@@ -1,0 +1,18 @@
+nom: L'Étudiant
+url: https://www.letudiant.fr
+description: Média d'information sur l'orientation, les études et les salons étudiants.
+categorie: orientation
+tags:
+- orientation
+- etudes
+- salons
+- classements
+publics:
+- eleve
+- parent
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee
+- superieur

@@ -1,0 +1,16 @@
+nom: Scolarité services
+url: https://teleservices.education.gouv.fr
+description: 'Téléservices officiels des familles : inscription, orientation, bourses, livret scolaire
+  unique.'
+categorie: gestion-administrative
+tags:
+- inscription
+- bourses
+- orientation
+- lsu
+- teleservices
+publics:
+- parent
+- eleve
+officiel: true
+gratuit: true

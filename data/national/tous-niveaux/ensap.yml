@@ -1,0 +1,16 @@
+nom: ENSAP
+url: https://ensap.gouv.fr
+description: 'Espace numérique sécurisé de l''agent public : bulletins de paie, décomptes de pension et
+  attestations fiscales.'
+categorie: gestion-administrative
+tags:
+- paie
+- salaire
+- remuneration
+- bulletin-de-paie
+- pension
+- carriere
+publics:
+- enseignant
+officiel: true
+gratuit: true

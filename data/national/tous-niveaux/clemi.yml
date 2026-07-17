@@ -1,0 +1,15 @@
+nom: CLEMI
+url: https://www.clemi.fr
+description: 'Centre pour l''éducation aux médias et à l''information : ressources EMI, Semaine de la
+  presse, concours.'
+categorie: emi-citoyennete
+tags:
+- emi
+- medias
+- presse
+- information
+- fake-news
+publics:
+- enseignant
+officiel: true
+gratuit: true

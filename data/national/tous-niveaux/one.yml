@@ -1,0 +1,24 @@
+nom: ONE
+url: https://one.opendigitaleducation.com
+description: 'ENT conçu pour l''école primaire : cahier de liaison, blog de classe, messagerie adaptée
+  aux jeunes élèves.'
+categorie: ent
+tags:
+- ent
+- primaire
+- cahier-de-liaison
+- blog
+- parents
+publics:
+- enseignant
+- eleve
+- parent
+officiel: false
+gratuit: partiel
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

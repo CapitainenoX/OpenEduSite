@@ -1,0 +1,21 @@
+nom: Lutin Bazar
+url: https://lutinbazar.fr
+description: 'Ressources clés en main pour le cycle 2 et le cycle 3 : séquences, jeux, affichages.'
+categorie: preparation-cours
+tags:
+- sequences
+- jeux
+- affichages
+- cycle2
+- cycle3
+- blog
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

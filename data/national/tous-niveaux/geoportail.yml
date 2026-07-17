@@ -1,0 +1,13 @@
+nom: Géoportail
+url: https://www.geoportail.gouv.fr
+description: Cartes et photographies aériennes de l'IGN, précieuses en histoire-géographie.
+categorie: lettres-histoire
+tags:
+- cartes
+- geographie
+- ign
+- photos-aeriennes
+publics:
+- enseignant
+officiel: true
+gratuit: true

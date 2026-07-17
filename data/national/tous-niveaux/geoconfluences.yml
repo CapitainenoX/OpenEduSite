@@ -1,0 +1,17 @@
+nom: Géoconfluences
+url: https://geoconfluences.ens-lyon.fr
+description: Publication scientifique de l'ENS de Lyon pour actualiser ses cours de géographie.
+categorie: lettres-histoire
+tags:
+- geographie
+- scientifique
+- dossiers
+- agregation
+publics:
+- enseignant
+officiel: true
+gratuit: true
+niveaux:
+- college
+- lycee
+- superieur

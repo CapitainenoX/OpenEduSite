@@ -1,0 +1,23 @@
+nom: Beneylu School
+url: https://beneylu.com/school/
+description: 'ENT de l''école primaire : cahier de textes, blog, médiathèque, dans un environnement fermé
+  et sécurisé.'
+categorie: ent
+tags:
+- ent
+- primaire
+- blog
+- cahier-de-textes
+publics:
+- enseignant
+- eleve
+- parent
+officiel: false
+gratuit: partiel
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

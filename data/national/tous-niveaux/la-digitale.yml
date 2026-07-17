@@ -1,0 +1,14 @@
+nom: La Digitale
+url: https://ladigitale.dev
+description: 'Suite d''outils numériques libres, gratuits et sans compte élève : Digipad, Digiquiz, Digibunch…'
+categorie: outils-numeriques
+tags:
+- libre
+- rgpd
+- digipad
+- quiz
+- collaboratif
+publics:
+- enseignant
+officiel: false
+gratuit: true

@@ -1,0 +1,22 @@
+nom: Mon Bureau Numérique
+url: https://www.monbureaunumerique.fr
+description: ENT des collèges et lycées de la région Grand Est.
+categorie: ent
+tags:
+- ent
+- grand-est
+- cahier-de-textes
+- messagerie
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- college
+- lycee
+academies:
+- nancy-metz
+- strasbourg
+- reims

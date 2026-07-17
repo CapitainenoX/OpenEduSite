@@ -1,0 +1,22 @@
+nom: Bout de Gomme
+url: https://boutdegomme.fr
+description: Fiches, exercices et affichages illustrés pour le primaire, en français et en mathématiques.
+categorie: preparation-cours
+tags:
+- fiches
+- exercices
+- affichages
+- maths
+- francais
+- blog
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

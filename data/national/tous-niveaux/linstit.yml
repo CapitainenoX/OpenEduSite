@@ -1,0 +1,21 @@
+nom: L'instit.com
+url: https://www.linstit.com
+description: Exercices interactifs de français et de maths pour le primaire, avec suivi des élèves.
+categorie: exercices-entrainement
+tags:
+- francais
+- maths
+- exercices
+- suivi
+publics:
+- enseignant
+- eleve
+- parent
+officiel: false
+gratuit: true
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

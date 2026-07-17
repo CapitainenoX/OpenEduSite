@@ -1,0 +1,17 @@
+nom: Portail pédagogique d'Aix-Marseille
+url: https://www.pedagogie.ac-aix-marseille.fr
+description: Ressources disciplinaires, sites des inspections et actualités pédagogiques de l'académie
+  d'Aix-Marseille (dont la DRANE).
+categorie: preparation-cours
+tags:
+- academie
+- disciplines
+- inspection
+- dane
+- ressources
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- aix-marseille

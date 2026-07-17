@@ -1,0 +1,20 @@
+nom: Académie d'Orléans-Tours
+url: https://www.ac-orleans-tours.fr
+description: 'Site officiel de l''académie (Orléans-Tours) : actualités, circulaires, concours et mouvement,
+  informations pour les personnels et les familles.'
+categorie: institutionnel
+tags:
+- academie
+- rectorat
+- circulaires
+- concours
+- mouvement
+- personnels
+publics:
+- enseignant
+- direction
+- parent
+officiel: true
+gratuit: true
+academies:
+- orleans-tours

@@ -1,0 +1,18 @@
+nom: ReCreatisse
+url: https://www.recreatisse.com
+description: Jeux, cartes mentales et manipulations pour le cycle 2.
+categorie: preparation-cours
+tags:
+- jeux
+- cartes-mentales
+- manipulation
+- cycle2
+- blog
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- cp
+- ce1
+- ce2

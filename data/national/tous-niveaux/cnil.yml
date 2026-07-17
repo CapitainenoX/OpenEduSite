@@ -1,0 +1,14 @@
+nom: CNIL
+url: https://www.cnil.fr
+description: 'Autorité de protection des données : ressources pédagogiques sur la vie privée et le RGPD
+  à l''école.'
+categorie: emi-citoyennete
+tags:
+- rgpd
+- donnees
+- vie-privee
+- droit
+publics:
+- enseignant
+officiel: true
+gratuit: true

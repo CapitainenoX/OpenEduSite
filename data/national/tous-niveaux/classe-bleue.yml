@@ -1,0 +1,20 @@
+nom: La classe bleue
+url: https://laclassebleue.fr
+description: Fiches d'exercices et évaluations prêtes à imprimer du CP au CM2.
+categorie: preparation-cours
+tags:
+- fiches
+- exercices
+- evaluations
+- impression
+- blog
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

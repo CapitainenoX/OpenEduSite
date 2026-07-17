@@ -1,0 +1,19 @@
+nom: Vinz et Lou
+url: https://www.vinzetlou.net
+description: Dessins animés et parcours pédagogiques d'éducation à la citoyenneté et au numérique pour
+  les 7-12 ans.
+categorie: emi-citoyennete
+tags:
+- citoyennete
+- internet
+- videos
+- parcours
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- ce1
+- ce2
+- cm1
+- cm2

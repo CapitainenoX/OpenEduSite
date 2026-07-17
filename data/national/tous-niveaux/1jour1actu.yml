@@ -1,0 +1,19 @@
+nom: 1jour1actu
+url: https://www.1jour1actu.com
+description: 'L''actualité expliquée aux 8-13 ans : articles, vidéos et posters pour l''EMI.'
+categorie: emi-citoyennete
+tags:
+- actualite
+- emi
+- presse
+- videos
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: partiel
+niveaux:
+- ce2
+- cm1
+- cm2
+- college

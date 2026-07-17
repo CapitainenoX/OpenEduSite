@@ -1,0 +1,20 @@
+nom: Tablesdemultiplication.fr
+url: https://www.tablesdemultiplication.fr
+description: Jeux et diplômes pour mémoriser les tables de multiplication.
+categorie: exercices-entrainement
+tags:
+- tables
+- multiplication
+- jeux
+- memorisation
+publics:
+- eleve
+- enseignant
+- parent
+officiel: false
+gratuit: true
+niveaux:
+- ce1
+- ce2
+- cm1
+- cm2

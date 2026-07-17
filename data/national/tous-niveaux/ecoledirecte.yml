@@ -1,0 +1,21 @@
+nom: EcoleDirecte
+url: https://www.ecoledirecte.com
+description: 'Plateforme de vie scolaire (Aplim) très utilisée dans l''enseignement privé : notes, cahier
+  de textes, communication.'
+categorie: vie-scolaire
+tags:
+- ent
+- notes
+- cahier-de-textes
+- prive
+- absences
+publics:
+- enseignant
+- eleve
+- parent
+- direction
+officiel: false
+gratuit: false
+niveaux:
+- college
+- lycee

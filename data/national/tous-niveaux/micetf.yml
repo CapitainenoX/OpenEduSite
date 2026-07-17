@@ -1,0 +1,22 @@
+nom: MiCetF
+url: https://micetf.fr
+description: 'Dizaines de générateurs et d''outils gratuits pour le primaire : monnaie, dictées, numération,
+  fractions.'
+categorie: outils-numeriques
+tags:
+- generateurs
+- maths
+- dictees
+- monnaie
+- tni
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

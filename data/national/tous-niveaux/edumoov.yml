@@ -1,0 +1,21 @@
+nom: Edumoov
+url: https://www.edumoov.com
+description: Cahier journal, séquences et livrets scolaires (LSU) en ligne pour les professeurs des écoles.
+categorie: gestion-administrative
+tags:
+- cahier-journal
+- livret
+- lsu
+- sequences
+- preparation
+publics:
+- enseignant
+officiel: false
+gratuit: partiel
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

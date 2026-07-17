@@ -1,0 +1,19 @@
+nom: Vikidia
+url: https://fr.vikidia.org
+description: Encyclopédie collaborative adaptée aux 8-13 ans, idéale pour les exposés.
+categorie: ressources-pedagogiques
+tags:
+- encyclopedie
+- exposes
+- recherche
+- wiki
+publics:
+- eleve
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- ce2
+- cm1
+- cm2
+- college

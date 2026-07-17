@@ -1,0 +1,22 @@
+nom: ClassDojo
+url: https://www.classdojo.com
+description: Gestion du comportement et communication avec les familles par points et avatars, très répandu
+  au primaire.
+categorie: vie-scolaire
+tags:
+- comportement
+- gestion-de-classe
+- parents
+- points
+publics:
+- enseignant
+- parent
+officiel: false
+gratuit: partiel
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

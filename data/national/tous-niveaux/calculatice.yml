@@ -1,0 +1,22 @@
+nom: Calcul@TICE
+url: https://calculatice.ac-lille.fr
+description: 'Entraînement au calcul mental du CP à la 6e, développé par l''académie de Lille : exercices
+  et rallyes.'
+categorie: exercices-entrainement
+tags:
+- calcul-mental
+- maths
+- rallye
+- exercices
+publics:
+- enseignant
+- eleve
+officiel: true
+gratuit: true
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2
+- college

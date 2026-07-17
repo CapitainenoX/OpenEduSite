@@ -1,0 +1,17 @@
+nom: RetroNews
+url: https://www.retronews.fr
+description: 'Site de presse de la BnF : trois siècles d''archives de journaux pour travailler les sources.'
+categorie: lettres-histoire
+tags:
+- presse
+- archives
+- sources
+- emi
+publics:
+- enseignant
+officiel: true
+gratuit: partiel
+niveaux:
+- college
+- lycee
+- superieur

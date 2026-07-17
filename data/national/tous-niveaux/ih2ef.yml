@@ -1,0 +1,14 @@
+nom: "IH2EF"
+url: "https://www.ih2ef.gouv.fr/"
+description: >
+  Institut des hautes études de l'éducation et de la formation (ex-ESENESR).
+  Forme les cadres de l'Éducation nationale (personnels de direction,
+  inspecteurs, cadres administratifs) et publie des ressources sur le pilotage
+  et le management des établissements.
+categorie: "formation-enseignants"
+tags: [formation, cadres, direction, chef-etablissement, inspecteurs, pilotage, esenesr, management]
+publics: [direction, enseignant]
+niveaux: [tous]
+academies: [toutes]
+officiel: true
+gratuit: true

@@ -1,0 +1,14 @@
+nom: "ADAGE - Éducation artistique et culturelle"
+url: "https://eduscol.education.fr/3004/l-application-adage"
+description: >
+  Application dédiée à la généralisation de l'éducation artistique et culturelle :
+  recensement du volet culturel du projet d'école ou d'établissement, appels à
+  projets, réservation des offres collectives pass Culture et cartographie des
+  partenaires culturels.
+categorie: "arts-culture"
+tags: [eac, culture, pass-culture, projet-etablissement, appels-a-projets, artistique]
+publics: [enseignant, direction]
+niveaux: [tous]
+academies: [toutes]
+officiel: true
+gratuit: true

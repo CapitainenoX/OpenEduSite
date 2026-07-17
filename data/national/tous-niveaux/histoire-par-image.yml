@@ -1,0 +1,16 @@
+nom: L'Histoire par l'image
+url: https://histoire-image.org
+description: Études d'œuvres et d'images d'archives pour enseigner l'histoire de 1643 à 1945.
+categorie: lettres-histoire
+tags:
+- histoire
+- images
+- oeuvres
+- analyses
+publics:
+- enseignant
+officiel: true
+gratuit: true
+niveaux:
+- college
+- lycee

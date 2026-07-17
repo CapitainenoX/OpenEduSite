@@ -1,0 +1,21 @@
+nom: Lycée Connecté
+url: https://lyceeconnecte.fr
+description: ENT des lycées de Nouvelle-Aquitaine.
+categorie: ent
+tags:
+- ent
+- nouvelle-aquitaine
+- lycee
+- messagerie
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- lycee
+academies:
+- bordeaux
+- poitiers
+- limoges

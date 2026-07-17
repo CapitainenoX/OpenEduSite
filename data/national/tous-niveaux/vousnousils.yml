@@ -1,0 +1,12 @@
+nom: VousNousIls
+url: https://www.vousnousils.fr
+description: Magazine en ligne de l'actualité éducative et du métier d'enseignant.
+categorie: annuaires-portails
+tags:
+- actualite
+- veille
+- metier
+publics:
+- enseignant
+officiel: false
+gratuit: true

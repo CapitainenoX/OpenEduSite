@@ -1,0 +1,13 @@
+nom: CNRTL
+url: https://www.cnrtl.fr
+description: 'Portail lexical du CNRS : définitions, étymologie, synonymes du français.'
+categorie: lettres-histoire
+tags:
+- dictionnaire
+- lexique
+- etymologie
+- synonymes
+publics:
+- enseignant
+officiel: true
+gratuit: true

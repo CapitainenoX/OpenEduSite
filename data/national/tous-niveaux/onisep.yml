@@ -1,0 +1,14 @@
+nom: "Onisep"
+url: "https://www.onisep.fr/"
+description: >
+  Office national d'information sur les enseignements et les professions :
+  ressources sur les formations, les métiers et les parcours d'orientation, de
+  la 6e au supérieur. Outils et séquences pédagogiques pour accompagner
+  l'orientation des élèves.
+categorie: "orientation"
+tags: [orientation, metiers, formations, parcours, onisep, poursuite-etudes]
+publics: [enseignant, eleve, parent]
+niveaux: [tous]
+academies: [toutes]
+officiel: true
+gratuit: true

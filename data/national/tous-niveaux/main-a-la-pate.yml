@@ -1,0 +1,21 @@
+nom: La main à la pâte
+url: https://fondation-lamap.org
+description: 'Fondation pour l''enseignement des sciences par l''investigation : séquences clés en main
+  et formations.'
+categorie: sciences
+tags:
+- sciences
+- demarche-investigation
+- sequences
+- formation
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

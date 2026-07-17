@@ -1,0 +1,19 @@
+nom: Laclasse.com
+url: https://www.laclasse.com
+description: ENT des collèges de la métropole de Lyon.
+categorie: ent
+tags:
+- ent
+- lyon
+- college
+- metropole
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- college
+academies:
+- lyon

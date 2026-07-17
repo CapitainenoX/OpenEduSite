@@ -1,0 +1,14 @@
+nom: Quizlet
+url: https://quizlet.com
+description: Cartes mémoire et jeux de révision, très utilisés pour le vocabulaire en langues.
+categorie: exercices-entrainement
+tags:
+- flashcards
+- vocabulaire
+- memorisation
+- jeux
+publics:
+- eleve
+- enseignant
+officiel: false
+gratuit: partiel

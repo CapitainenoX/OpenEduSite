@@ -1,0 +1,14 @@
+nom: Mon Master
+url: https://www.monmaster.gouv.fr
+description: Plateforme nationale de candidature en master.
+categorie: orientation
+tags:
+- master
+- superieur
+- candidature
+publics:
+- eleve
+officiel: true
+gratuit: true
+niveaux:
+- superieur

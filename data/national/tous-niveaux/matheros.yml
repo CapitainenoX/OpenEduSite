@@ -1,0 +1,20 @@
+nom: Matheros
+url: https://matheros.fr
+description: Plateforme ludique de calcul mental par ceintures, liée à Classe Numérique.
+categorie: exercices-entrainement
+tags:
+- calcul-mental
+- ceintures
+- maths
+- jeu
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: partiel
+niveaux:
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

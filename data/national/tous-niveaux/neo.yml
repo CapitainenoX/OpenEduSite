@@ -1,0 +1,19 @@
+nom: NEO
+url: https://neo.opendigitaleducation.com
+description: 'ENT du même éditeur que ONE, destiné aux collèges et lycées : messagerie, cahier de textes,
+  applications.'
+categorie: ent
+tags:
+- ent
+- messagerie
+- cahier-de-textes
+- college
+publics:
+- enseignant
+- eleve
+- parent
+officiel: false
+gratuit: false
+niveaux:
+- college
+- lycee

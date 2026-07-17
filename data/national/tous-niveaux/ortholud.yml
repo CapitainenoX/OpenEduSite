@@ -1,0 +1,15 @@
+nom: Ortholud
+url: https://www.ortholud.com
+description: 'Exercices interactifs de français : conjugaison, grammaire, orthographe, lecture.'
+categorie: exercices-entrainement
+tags:
+- francais
+- conjugaison
+- grammaire
+- orthographe
+publics:
+- enseignant
+- eleve
+- parent
+officiel: false
+gratuit: true

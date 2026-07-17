@@ -1,0 +1,19 @@
+nom: L'école de Crevette
+url: https://www.ecoledecrevette.fr
+description: 'Fiches et jeux pour la maternelle et le cycle 2 : lecture, phonologie, autonomie.'
+categorie: preparation-cours
+tags:
+- lecture
+- phonologie
+- autonomie
+- jeux
+- blog
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2

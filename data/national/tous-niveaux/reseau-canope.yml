@@ -1,0 +1,14 @@
+nom: Réseau Canopé
+url: https://www.reseau-canope.fr
+description: 'Opérateur public de ressources et de formation des enseignants : ouvrages, webinaires, CanoTech.'
+categorie: formation-enseignants
+tags:
+- canope
+- formation
+- ressources
+- canotech
+- webinaires
+publics:
+- enseignant
+officiel: true
+gratuit: true

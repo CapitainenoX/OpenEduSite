@@ -1,0 +1,18 @@
+nom: Kartable
+url: https://www.kartable.fr
+description: Cours, exercices et fiches de révision conformes aux programmes du collège et du lycée.
+categorie: exercices-entrainement
+tags:
+- revisions
+- cours
+- fiches
+- exercices
+publics:
+- eleve
+- parent
+- enseignant
+officiel: false
+gratuit: partiel
+niveaux:
+- college
+- lycee

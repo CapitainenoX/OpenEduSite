@@ -1,0 +1,15 @@
+nom: Fiche-maternelle.com
+url: https://www.fiche-maternelle.com
+description: 'Fiches d''activités gratuites pour la maternelle : graphisme, lecture, numération.'
+categorie: exercices-entrainement
+tags:
+- maternelle
+- graphisme
+- fiches
+- numeration
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- maternelle

@@ -1,0 +1,16 @@
+nom: ÉduConnect
+url: https://educonnect.education.gouv.fr
+description: Compte unique des élèves et des parents pour accéder aux services en ligne de l'école au
+  lycée.
+categorie: gestion-administrative
+tags:
+- compte
+- connexion
+- teleservices
+- parents
+- eleves
+publics:
+- eleve
+- parent
+officiel: true
+gratuit: true

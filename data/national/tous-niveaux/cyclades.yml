@@ -1,0 +1,17 @@
+nom: Cyclades
+url: https://cyclades.education.gouv.fr
+description: 'Portail officiel de gestion des examens et concours : inscriptions, convocations, résultats.'
+categorie: gestion-administrative
+tags:
+- examens
+- concours
+- brevet
+- bac
+- inscriptions
+- resultats
+publics:
+- enseignant
+- eleve
+- direction
+officiel: true
+gratuit: true

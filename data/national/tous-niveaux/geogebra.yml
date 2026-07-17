@@ -1,0 +1,14 @@
+nom: GeoGebra
+url: https://www.geogebra.org
+description: Suite libre de géométrie dynamique, tableur et grapheur pour l'enseignement des maths.
+categorie: sciences
+tags:
+- maths
+- geometrie
+- grapheur
+- dynamique
+publics:
+- enseignant
+- eleve
+officiel: false
+gratuit: true

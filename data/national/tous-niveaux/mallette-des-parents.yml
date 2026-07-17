@@ -1,0 +1,14 @@
+nom: Mallette des parents
+url: https://mallettedesparents.education.gouv.fr
+description: 'Outils officiels pour renforcer le lien école-familles : fiches, supports de réunion.'
+categorie: parents
+tags:
+- parents
+- coeducation
+- familles
+- reunion
+publics:
+- enseignant
+- parent
+officiel: true
+gratuit: true

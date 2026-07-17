@@ -1,0 +1,17 @@
+nom: PhET Simulations
+url: https://phet.colorado.edu
+description: Simulations interactives gratuites de sciences (physique, chimie, maths) de l'université
+  du Colorado.
+categorie: sciences
+tags:
+- simulations
+- physique
+- chimie
+- interactif
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee

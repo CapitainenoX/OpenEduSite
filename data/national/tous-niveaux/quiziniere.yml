@@ -1,0 +1,13 @@
+nom: La Quizinière
+url: https://www.quiziniere.com
+description: Création d'exercices et de quiz en ligne par Canopé, sans compte élève et conforme RGPD.
+categorie: outils-numeriques
+tags:
+- quiz
+- evaluation
+- rgpd
+- canope
+publics:
+- enseignant
+officiel: true
+gratuit: true

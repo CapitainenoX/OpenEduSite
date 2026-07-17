@@ -1,0 +1,18 @@
+nom: Capytale
+url: https://capytale2.ac-paris.fr
+description: Service web de création et partage d'activités de codage (Python, notebooks) entre enseignants
+  et élèves.
+categorie: outils-numeriques
+tags:
+- python
+- notebook
+- code
+- nsi
+- snt
+publics:
+- enseignant
+officiel: true
+gratuit: true
+niveaux:
+- college
+- lycee

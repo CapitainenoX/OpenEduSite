@@ -1,0 +1,16 @@
+nom: CIDJ
+url: https://www.cidj.com
+description: 'Information jeunesse : métiers, études, jobs et vie pratique.'
+categorie: orientation
+tags:
+- metiers
+- etudes
+- information-jeunesse
+publics:
+- eleve
+- parent
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee

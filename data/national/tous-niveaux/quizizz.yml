@@ -1,0 +1,13 @@
+nom: Quizizz
+url: https://quizizz.com
+description: Quiz et leçons interactives à jouer en classe ou en devoirs, à son rythme.
+categorie: outils-numeriques
+tags:
+- quiz
+- devoirs
+- evaluation
+- jeu
+publics:
+- enseignant
+officiel: false
+gratuit: partiel

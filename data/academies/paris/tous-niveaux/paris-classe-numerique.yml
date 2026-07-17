@@ -1,0 +1,25 @@
+nom: Paris Classe Numérique
+url: https://www.parisclassenumerique.fr
+description: ENT des écoles et collèges parisiens.
+categorie: ent
+tags:
+- ent
+- paris
+- ecole
+- college
+publics:
+- enseignant
+- eleve
+- parent
+officiel: true
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2
+- college
+academies:
+- paris

@@ -1,0 +1,20 @@
+nom: Académie de Nice
+url: https://www.ac-nice.fr
+description: 'Site officiel de l''académie (Nice) : actualités, circulaires, concours et mouvement, informations
+  pour les personnels et les familles.'
+categorie: institutionnel
+tags:
+- academie
+- rectorat
+- circulaires
+- concours
+- mouvement
+- personnels
+publics:
+- enseignant
+- direction
+- parent
+officiel: true
+gratuit: true
+academies:
+- nice

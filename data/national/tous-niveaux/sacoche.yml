@@ -1,0 +1,17 @@
+nom: SACoche
+url: https://sacoche.sesamath.net
+description: 'Suivi d''acquisition de compétences par l''association Sésamath : évaluation par compétences
+  et bilans.'
+categorie: evaluation
+tags:
+- competences
+- evaluation
+- bilans
+- sesamath
+publics:
+- enseignant
+officiel: false
+gratuit: true
+niveaux:
+- college
+- lycee

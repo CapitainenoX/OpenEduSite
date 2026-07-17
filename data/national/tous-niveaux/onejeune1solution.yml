@@ -1,0 +1,17 @@
+nom: 1jeune1solution
+url: https://www.1jeune1solution.gouv.fr
+description: Portail gouvernemental des stages, alternances et emplois pour les jeunes, dont le stage
+  de 2de et de 3e.
+categorie: orientation
+tags:
+- stage
+- troisieme
+- seconde
+- alternance
+- emploi
+publics:
+- eleve
+- parent
+- enseignant
+officiel: true
+gratuit: true

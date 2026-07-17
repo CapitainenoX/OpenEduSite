@@ -1,0 +1,12 @@
+nom: Padlet
+url: https://padlet.com
+description: Murs collaboratifs pour collecter et partager textes, images et liens avec la classe.
+categorie: outils-numeriques
+tags:
+- mur-collaboratif
+- partage
+- collecte
+publics:
+- enseignant
+officiel: false
+gratuit: partiel

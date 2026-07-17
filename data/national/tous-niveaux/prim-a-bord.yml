@@ -1,0 +1,20 @@
+nom: Prim à bord
+url: https://primabord.eduscol.education.fr
+description: 'Portail officiel du numérique pour le premier degré : outils, usages et actualités.'
+categorie: institutionnel
+tags:
+- primaire
+- numerique
+- premier-degre
+- usages
+publics:
+- enseignant
+officiel: true
+gratuit: true
+niveaux:
+- maternelle
+- cp
+- ce1
+- ce2
+- cm1
+- cm2

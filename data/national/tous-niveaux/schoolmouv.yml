@@ -1,0 +1,17 @@
+nom: SchoolMouv
+url: https://www.schoolmouv.fr
+description: Cours en vidéo, fiches et quiz pour le collège et le lycée.
+categorie: exercices-entrainement
+tags:
+- videos
+- cours
+- quiz
+- revisions
+publics:
+- eleve
+- parent
+officiel: false
+gratuit: false
+niveaux:
+- college
+- lycee

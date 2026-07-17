@@ -1,0 +1,13 @@
+nom: LearningApps
+url: https://learningapps.org
+description: Création et partage de petits exercices interactifs (appariements, classements, mots croisés).
+categorie: outils-numeriques
+tags:
+- exercices
+- interactif
+- creation
+- gratuit
+publics:
+- enseignant
+officiel: false
+gratuit: true
