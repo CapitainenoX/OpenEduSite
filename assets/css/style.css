@@ -3,58 +3,61 @@
    Trois thèmes : clair (défaut), sombre, obsidienne.
    ============================================================ */
 
+/* Clair : noir sur blanc, minimal */
 :root, [data-theme="clair"] {
-  --bg: #f6f7fb;
+  --bg: #ffffff;
   --bg-raised: #ffffff;
-  --bg-inset: #eef0f7;
-  --text: #1c2333;
-  --text-soft: #5a6478;
-  --border: #dfe3ee;
-  --accent: #3b5bdb;
-  --accent-soft: #e7ecfd;
+  --bg-inset: #f4f4f4;
+  --text: #111111;
+  --text-soft: #575757;
+  --border: #e2e2e2;
+  --accent: #111111;
+  --accent-soft: #efefef;
   --accent-text: #ffffff;
-  --badge-officiel-bg: #e3f2e8;
-  --badge-officiel-text: #1e6b3a;
-  --badge-paid-bg: #fdeee6;
-  --badge-paid-text: #a04a12;
-  --shadow: 0 1px 3px rgba(20, 30, 60, .08), 0 4px 16px rgba(20, 30, 60, .06);
-  --shadow-hover: 0 4px 10px rgba(20, 30, 60, .12), 0 10px 28px rgba(20, 30, 60, .10);
+  --badge-officiel-bg: #111111;
+  --badge-officiel-text: #ffffff;
+  --badge-paid-bg: #f0f0f0;
+  --badge-paid-text: #575757;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  --shadow-hover: 0 3px 10px rgba(0, 0, 0, .10);
 }
 
+/* Sombre : blanc sur noir, minimal */
 [data-theme="sombre"] {
-  --bg: #14161c;
-  --bg-raised: #1d2028;
-  --bg-inset: #262a35;
-  --text: #e8eaf1;
-  --text-soft: #9aa3b5;
-  --border: #333845;
-  --accent: #7c96f5;
-  --accent-soft: #2a3350;
-  --accent-text: #0d1020;
-  --badge-officiel-bg: #1d3a28;
-  --badge-officiel-text: #7fd49c;
-  --badge-paid-bg: #40291a;
-  --badge-paid-text: #f0a468;
-  --shadow: 0 1px 3px rgba(0, 0, 0, .4);
-  --shadow-hover: 0 6px 20px rgba(0, 0, 0, .5);
+  --bg: #101010;
+  --bg-raised: #181818;
+  --bg-inset: #232323;
+  --text: #f2f2f2;
+  --text-soft: #9a9a9a;
+  --border: #2d2d2d;
+  --accent: #ffffff;
+  --accent-soft: #2a2a2a;
+  --accent-text: #101010;
+  --badge-officiel-bg: #f2f2f2;
+  --badge-officiel-text: #101010;
+  --badge-paid-bg: #262626;
+  --badge-paid-text: #9a9a9a;
+  --shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  --shadow-hover: 0 4px 14px rgba(0, 0, 0, .6);
 }
 
-[data-theme="obsidienne"] {
-  --bg: #0b0a10;
-  --bg-raised: #141220;
-  --bg-inset: #1c1930;
-  --text: #ece9f8;
-  --text-soft: #9d94c0;
-  --border: #2c2749;
-  --accent: #a78bfa;
-  --accent-soft: #2a2350;
-  --accent-text: #120e22;
-  --badge-officiel-bg: #16324a;
-  --badge-officiel-text: #7cc7ff;
-  --badge-paid-bg: #3a2040;
-  --badge-paid-text: #e39ae0;
-  --shadow: 0 1px 3px rgba(0, 0, 0, .55), 0 0 0 1px rgba(167, 139, 250, .06);
-  --shadow-hover: 0 8px 26px rgba(80, 50, 180, .35);
+/* Obsidian : le look de l'application Obsidian (fond anthracite, accent violet) */
+[data-theme="obsidian"] {
+  --bg: #1e1e1e;
+  --bg-raised: #262626;
+  --bg-inset: #2f2f2f;
+  --text: #dadada;
+  --text-soft: #999999;
+  --border: #363636;
+  --accent: #a882ff;
+  --accent-soft: #3d3360;
+  --accent-text: #1e1e1e;
+  --badge-officiel-bg: #3d3360;
+  --badge-officiel-text: #c8b3ff;
+  --badge-paid-bg: #333333;
+  --badge-paid-text: #999999;
+  --shadow: 0 1px 3px rgba(0, 0, 0, .45);
+  --shadow-hover: 0 4px 16px rgba(0, 0, 0, .55), 0 0 0 1px rgba(168, 130, 255, .25);
 }
 
 * { box-sizing: border-box; }
@@ -416,8 +419,11 @@ input[type="checkbox"] { accent-color: var(--accent); width: 15px; height: 15px;
   place-items: center;
   font-weight: 700;
   font-size: 1.15rem;
-  color: #fff;
+  background: var(--text);
+  color: var(--bg);
 }
+
+[data-theme="obsidian"] .card-avatar { background: var(--accent); color: var(--accent-text); }
 
 .card-title { min-width: 0; }
 

@@ -72,11 +72,6 @@
     "parent": "Parents", "direction": "Direction",
   };
 
-  const AVATAR_COLORS = [
-    "#3b5bdb", "#0b7285", "#087f5b", "#5f3dc4", "#c2255c",
-    "#e8590c", "#5c940d", "#1971c2", "#862e9c", "#a61e4d",
-  ];
-
   // ---------- État ----------
   const state = {
     q: "",
@@ -105,12 +100,6 @@
   function escapeHtml(str) {
     return String(str).replace(/[&<>"]/g, (c) =>
       ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  }
-
-  function avatarColor(name) {
-    let h = 0;
-    for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
-    return AVATAR_COLORS[h % AVATAR_COLORS.length];
   }
 
   function academieLabel(slug) {
@@ -225,7 +214,7 @@
 
     return `<article class="card">
       <div class="card-head">
-        <span class="card-avatar" style="background:${avatarColor(s.nom)}" aria-hidden="true">${escapeHtml(initial)}</span>
+        <span class="card-avatar" aria-hidden="true">${escapeHtml(initial)}</span>
         <div class="card-title">
           <h3><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.nom)}</a></h3>
           <span class="card-cat">${escapeHtml(cat)}</span>
@@ -439,7 +428,8 @@
 
   // ---------- Thèmes ----------
   function bindThemes() {
-    const saved = localStorage.getItem("oes-theme");
+    let saved = localStorage.getItem("oes-theme");
+    if (saved === "obsidienne") saved = "obsidian"; // ancien nom du thème
     const preferred = saved ||
       (window.matchMedia("(prefers-color-scheme: dark)").matches ? "sombre" : "clair");
     setTheme(preferred);

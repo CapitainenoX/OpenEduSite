@@ -8,7 +8,8 @@ ENT, vie scolaire, ressources pédagogiques, exercices, orientation, inclusion�
   et trouvez Pronote, ONDE, EcoleDirecte…
 - 🎚️ **Filtres** par niveau (maternelle → supérieur), académie, catégorie,
   public, sites officiels ou gratuits.
-- 🌗 **Trois thèmes** : clair, sombre et **obsidienne**.
+- 🌗 **Trois thèmes** : clair et sombre en noir & blanc, plus un thème
+  **Obsidian** (le look de l'application de prise de notes).
 - 📄 **Base de données en fichiers** : ajouter un site = déposer un fichier
   YAML, sans toucher au code.
 
