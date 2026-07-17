@@ -1,0 +1,16 @@
+nom: PIA - Portail Intranet Académique de Dijon
+url: https://pia.ac-dijon.fr/accueil/
+description: Portail intranet de l'académie de Dijon donnant accès aux applications
+  et services numériques (ARENA, iProf, webmail…) pour les personnels et partenaires.
+categorie: gestion-administrative
+tags:
+- intranet
+- arena
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- dijon

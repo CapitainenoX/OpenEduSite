@@ -1,0 +1,16 @@
+nom: SRANE - Service régional académique du numérique éducatif de Bordeaux
+url: https://dane.ac-bordeaux.fr/
+description: Site du service régional académique au numérique éducatif (DANE) de
+  l'académie de Bordeaux, avec ressources, ENT et accompagnement pédagogique numérique.
+categorie: outils-numeriques
+tags:
+- dane
+- numerique
+- ent
+- ressources
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- bordeaux

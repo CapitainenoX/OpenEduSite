@@ -524,6 +524,11 @@ input[type="checkbox"] { accent-color: var(--accent); width: 15px; height: 15px;
   width: 100%;
   height: 68vh;
   cursor: grab;
+  touch-action: none; /* le tactile pilote le graphe, pas le défilement */
+}
+
+@media (max-width: 900px) {
+  #graph { height: 62vh; }
 }
 
 #graph.dragging { cursor: grabbing; }

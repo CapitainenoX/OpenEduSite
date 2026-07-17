@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie de Clermont-Ferrand
+url: https://arena.ac-clermont.fr
+description: Portail ARENA de l'académie de Clermont-Ferrand, accès centralisé
+  aux applications métier nationales et académiques pour les personnels.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- clermont-ferrand

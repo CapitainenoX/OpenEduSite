@@ -1,0 +1,16 @@
+nom: DANE de l'académie de Clermont-Ferrand
+url: https://dane.ac-clermont.fr/co/ENT.html
+description: Site de la délégation académique au numérique éducatif de Clermont-Ferrand,
+  avec ressources sur l'ENT et la continuité pédagogique numérique.
+categorie: outils-numeriques
+tags:
+- dane
+- numerique
+- ent
+- ressources
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- clermont-ferrand

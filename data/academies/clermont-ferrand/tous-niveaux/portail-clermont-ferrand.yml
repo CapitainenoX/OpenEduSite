@@ -1,0 +1,16 @@
+nom: Portail intranet MonCompte de l'académie de Clermont-Ferrand
+url: https://portail.ac-clermont.fr/moncompte/
+description: Portail intranet de gestion de compte et d'accès aux services numériques
+  pour les personnels de l'académie de Clermont-Ferrand.
+categorie: gestion-administrative
+tags:
+- intranet
+- portail
+- compte
+- arena
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- clermont-ferrand

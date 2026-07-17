@@ -582,20 +582,33 @@
         ctx.fillStyle = n.hub ? colors.accent : (n.site && n.site.officiel ? "#8ab4f8" : colors.soft);
         ctx.fill();
         if (i === hover) {
-          ctx.strokeStyle = colors.text; ctx.lineWidth = 1.5; ctx.stroke();
+          ctx.strokeStyle = colors.text; ctx.lineWidth = 1.5 / scale; ctx.stroke();
         }
       }
-      // Libellés : hubs toujours, sites si zoom ou survol
+      // Libellés : taille constante À L'ÉCRAN (divisée par le zoom) pour
+      // rester lisibles, et anti-chevauchement — les catégories d'abord,
+      // puis les sites ; un libellé qui en recouvrirait un autre est masqué.
       ctx.textAlign = "center";
+      const placed = [];
+      const tryLabel = (i) => {
+        const n = nodes[i];
+        const dim = hover !== null && !neighbors.has(i);
+        const px = (n.hub ? 12.5 : 10.5) / scale;
+        const w = n.label.length * px * 0.6, h = px * 1.3;
+        const x = n.x, y = n.y + n.r + 4 + px;
+        for (const r of placed) {
+          if (Math.abs(x - r.x) < (w + r.w) / 2 && Math.abs(y - r.y) < h) return;
+        }
+        placed.push({ x, y, w });
+        ctx.globalAlpha = dim ? 0.15 : 1;
+        ctx.font = (n.hub ? "600 " : "") + px + "px system-ui, sans-serif";
+        ctx.fillStyle = n.hub ? colors.text : colors.soft;
+        ctx.fillText(n.label, x, y);
+      };
+      for (let i = 0; i < nodes.length; i++) if (nodes[i].hub) tryLabel(i);
       for (let i = 0; i < nodes.length; i++) {
         const n = nodes[i];
-        const show = n.hub || scale > 1.35 || neighbors.has(i);
-        if (!show) continue;
-        const dim = hover !== null && !neighbors.has(i);
-        ctx.globalAlpha = dim ? 0.15 : 1;
-        ctx.font = (n.hub ? "600 12px " : "10px ") + "system-ui, sans-serif";
-        ctx.fillStyle = n.hub ? colors.text : colors.soft;
-        ctx.fillText(n.label, n.x, n.y + n.r + 12);
+        if (!n.hub && (scale > 1.25 || neighbors.has(i))) tryLabel(i);
       }
       ctx.restore();
       ctx.globalAlpha = 1;
@@ -621,48 +634,89 @@
       return null;
     }
 
+    // Pointer Events : souris ET tactile (1 doigt = déplacer / toucher un
+    // nœud, 2 doigts = pincer pour zoomer, tap = ouvrir ou filtrer).
     function bind() {
-      canvas.addEventListener("mousedown", (e) => {
-        const i = nodeAt(toWorld(e));
-        if (i !== null) dragNode = nodes[i];
-        else { panning = true; canvas.classList.add("dragging"); }
-        lastX = e.clientX; lastY = e.clientY;
+      const pointers = new Map();
+      let pinchD = 0, tapStart = null;
+
+      function zoomAt(cxClient, cyClient, factor) {
+        const rect = canvas.getBoundingClientRect();
+        const mx = cxClient - rect.left, my = cyClient - rect.top;
+        const ns = Math.max(0.25, Math.min(6, scale * factor));
+        panX = mx - ((mx - panX) / scale) * ns;
+        panY = my - ((my - panY) / scale) * ns;
+        scale = ns;
+      }
+
+      canvas.addEventListener("pointerdown", (e) => {
+        canvas.setPointerCapture(e.pointerId);
+        pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (pointers.size === 1) {
+          const i = nodeAt(toWorld(e));
+          if (i !== null) dragNode = nodes[i];
+          else { panning = true; canvas.classList.add("dragging"); }
+          lastX = e.clientX; lastY = e.clientY;
+          tapStart = { x: e.clientX, y: e.clientY };
+        } else if (pointers.size === 2) {
+          dragNode = null; panning = false; tapStart = null;
+          const [a, b] = [...pointers.values()];
+          pinchD = Math.hypot(a.x - b.x, a.y - b.y);
+        }
       });
-      window.addEventListener("mousemove", (e) => {
+
+      canvas.addEventListener("pointermove", (e) => {
+        if (pointers.has(e.pointerId)) {
+          pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        }
+        if (pointers.size === 2) {
+          const [a, b] = [...pointers.values()];
+          const d = Math.hypot(a.x - b.x, a.y - b.y);
+          if (pinchD > 0 && d > 0) zoomAt((a.x + b.x) / 2, (a.y + b.y) / 2, d / pinchD);
+          pinchD = d;
+          return;
+        }
         if (dragNode) {
           const p = toWorld(e);
           dragNode.x = p.x; dragNode.y = p.y;
         } else if (panning) {
           panX += e.clientX - lastX; panY += e.clientY - lastY;
           lastX = e.clientX; lastY = e.clientY;
-        } else if (canvas.isConnected && !$("#graph-wrap").hidden) {
+        } else if (e.pointerType === "mouse") {
           hover = nodeAt(toWorld(e));
           canvas.style.cursor = hover !== null ? "pointer" : "grab";
         }
       });
-      window.addEventListener("mouseup", (e) => {
+
+      canvas.addEventListener("pointerup", (e) => {
+        pointers.delete(e.pointerId);
+        if (pointers.size < 2) pinchD = 0;
         canvas.classList.remove("dragging");
-        if (dragNode || panning) {
-          const moved = Math.abs(e.clientX - lastX) + Math.abs(e.clientY - lastY);
-          if (dragNode && moved < 4) {
-            if (dragNode.site) window.open(dragNode.site.url, "_blank", "noopener");
-            else if (dragNode.cat) {
-              toggleSet(state.categories, dragNode.cat);
+        if (tapStart &&
+            Math.hypot(e.clientX - tapStart.x, e.clientY - tapStart.y) < 6) {
+          const i = nodeAt(toWorld(e));
+          if (i !== null) {
+            const n = nodes[i];
+            if (n.site) window.open(n.site.url, "_blank", "noopener");
+            else if (n.cat) {
+              toggleSet(state.categories, n.cat);
               syncChips(); resetAndRender();
             }
           }
         }
-        dragNode = null; panning = false;
+        tapStart = null; dragNode = null; panning = false;
       });
+
+      canvas.addEventListener("pointercancel", (e) => {
+        pointers.delete(e.pointerId);
+        pinchD = 0; dragNode = null; panning = false; tapStart = null;
+      });
+
+      canvas.addEventListener("pointerleave", () => { hover = null; });
+
       canvas.addEventListener("wheel", (e) => {
         e.preventDefault();
-        const rect = canvas.getBoundingClientRect();
-        const mx = e.clientX - rect.left, my = e.clientY - rect.top;
-        const factor = e.deltaY < 0 ? 1.12 : 0.9;
-        const ns = Math.max(0.3, Math.min(4, scale * factor));
-        panX = mx - ((mx - panX) / scale) * ns;
-        panY = my - ((my - panY) / scale) * ns;
-        scale = ns;
+        zoomAt(e.clientX, e.clientY, e.deltaY < 0 ? 1.12 : 0.9);
       }, { passive: false });
       window.addEventListener("resize", () => { if (raf) resize(); });
     }

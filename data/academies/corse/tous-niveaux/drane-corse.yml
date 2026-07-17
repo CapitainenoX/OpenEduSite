@@ -1,0 +1,16 @@
+nom: DRANE de l'académie de Corse
+url: https://drane.ac-corse.fr/
+description: Site de la délégation régionale académique au numérique éducatif de
+  l'académie de Corse, avec formations, webinaires et ressources numériques.
+categorie: outils-numeriques
+tags:
+- dane
+- drane
+- numerique
+- formation
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- corse

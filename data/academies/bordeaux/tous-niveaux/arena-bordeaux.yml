@@ -1,0 +1,16 @@
+nom: Portail ARENA de l'académie de Bordeaux
+url: https://arena.ac-bordeaux.fr/
+description: Portail ARENA de l'académie de Bordeaux, point d'accès unique aux
+  applications métier (webmail, LSU, iProf, GAIA, SOFIA…) pour les personnels.
+categorie: gestion-administrative
+tags:
+- arena
+- intranet
+- iprof
+- portail
+publics:
+- enseignant
+officiel: true
+gratuit: true
+academies:
+- bordeaux
